@@ -1,0 +1,13 @@
+.babe-view-stimulus-container {
+    height: 200px;
+}
+
+.babe-view-picture img {
+    height: auto;
+    width: auto;
+    max-width: 350px;
+    max-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
