@@ -1,3 +1,7 @@
+// In this file you can instantiate your views
+// We here first instantiate wrapping views, then the trial views
+
+
 /** Wrapping views below
 
 * Obligatory properties
@@ -5,36 +9,43 @@
     * trials: int - the number of trials this view will appear
     * name: string
 
-* More about the properties and functions of the wrapping views - https://github.com/babe-project/babe-project/blob/master/docs/views.md#wrapping-views-properties
+*Optional properties
+    * buttonText: string - the text on the button (default: 'next')
+    * text: string - the text to be displayed in this view
+    * title: string - the title of this view
+
+    * More about the properties and functions of the wrapping views - https://babe-project.github.io/babe-docs/01_designing_experiments/01_template_views/#wrapping-views
 
 */
 
-const intro = babeViews.intro({
+// Every experiment should start with an intro view. Here you can welcome your participants and tell them what the experiment is about
+const intro = babeViews.view_generator("intro",{
     trials: 1,
     name: 'intro',
     title: 'Herzlich Willkommen',
-    text: `Vielen Dank, dass Sie an unserem Experiment teilnehmen. Im Folgenden werden wir Ihnen kurz erklären, wie das Experiment abläuft. Bitte klicken Sie dazu auf den Start Button.`,
-    buttonText: 'Start'
+    // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
+    text: 'Vielen Dank, dass Sie an unserem Experiment teilnehmen. Im Folgenden werden wir Ihnen kurz erklären, wie das Experiment abläuft. Bitte klicken Sie dazu auf den Start Button.',
+   buttonText: 'Start'    
 });
 
-const instructionsTask1 = babeViews.instructions({
+// For most tasks, you need instructions views
+const instructionsTask1 = babeViews.view_generator("instructions",{
     trials: 1,
-    name: 'instructions_task_one',
+    name: 'instrucions_task_one',
     title: 'Anleitung color blindness test',
-    text:  `This is a sample instructions view.`,
+    text:  'This is a sample instructions view.',
     buttonText: 'go to test'
 });
 
-
-const instructionsTask2 = babeViews.instructions({
+const instructionsTask2 = babeViews.view_generator("instructions",{
     trials: 1,
     name: 'instructions_task_two',
     title: 'Anleitung production task',
-    text:  `This is a sample instructions view.`,
+    text:  'This is a sample instructions view.',
     buttonText: 'go to production task'
 });
 
-const instructionsTask3 = babeViews.instructions({
+const instructionsTask3 = babeViews.view_generator("instructions",{
     trials: 1,
     name: 'instructions_task_three',
     title: 'Anleitung SPR task',
@@ -42,7 +53,7 @@ const instructionsTask3 = babeViews.instructions({
     buttonText: 'go to SPR task'
 });
 
-const instructionsPostTest = babeViews.instructions({
+const instructionsPostTest = babeViews.view_generator("instructions",{
     trials: 1,
     name: 'instructions_post_test',
     title: 'Post Questionnaire',
@@ -51,8 +62,8 @@ const instructionsPostTest = babeViews.instructions({
     sample the questions are in German.`
 });
 
-// the post questionnaire can be translated
-const post_test = babeViews.postTest({
+// In the post test questionnaire you can ask your participants addtional questions
+const post_test = babeViews.view_generator("post_test",{
     trials: 1,
     name: 'post_test',
     title: 'Additional information',
@@ -74,8 +85,8 @@ const post_test = babeViews.postTest({
     // comments_question: 'Weitere Kommentare'
 });
 
-// the 'thanks' view is crucial; never delete it; it submits the results!
-const thanks = babeViews.thanks({
+// The 'thanks' view is crucial; never delete it; it submits the results!
+const thanks = babeViews.view_generator("thanks", {
     trials: 1,
     name: 'thanks',
     title: 'Thank you for taking part in this experiment!',
@@ -88,7 +99,7 @@ const thanks = babeViews.thanks({
 
     - trials: int - the number of trials this view will appear
     - name: string - the name of the view type as it shall be known to _babe (e.g. for use with a progress bar)
-    - trial_type: string - the name of the trial type as you want it to appear in the submitted data
+            and the name of the trial as you want it to appear in the submitted data
     - data: array - an array of trial objects
 
 * Optional properties
@@ -96,30 +107,44 @@ const thanks = babeViews.thanks({
     - pause: number (in ms) - blank screen before the fixation point or stimulus show
     - fix_duration: number (in ms) - blank screen with fixation point in the middle
     - stim_duration: number (in ms) - for how long to have the stimulus on the screen
-        More about trial life cycle - https://github.com/babe-project/babe-project/blob/master/docs/views.md#trial-views-lifecycle
+      More about trial life cycle - https://babe-project.github.io/babe-docs/01_designing_experiments/04_lifecycles_hooks/
 
     - hook: object - option to hook and add custom functions to the view
-        More about hooks - https://github.com/babe-project/babe-project/blob/master/docs/views.md#trial-views-hooks
+      More about hooks - https://babe-project.github.io/babe-docs/01_designing_experiments/04_lifecycles_hooks/
 
-* All about the properties of trial - https://github.com/babe-project/babe-project/blob/master/docs/views.md#properties-of-trial
+* All about the properties of trial views
+* https://babe-project.github.io/babe-docs/01_designing_experiments/01_template_views/#trial-views
 */
 
-// part of the practice sample
-const task_one = dropdown_8_options({
+
+// Here, we initialize a normal forced_choice view
+/*const forced_choice_2A = babeViews.view_generator("forced_choice", {
+    // This will use all trials specified in `data`, you can user a smaller value (for testing), but not a larger value
+    trials: trial_info.forced_choice.length,
+    // name should be identical to the variable name
+    name: 'forced_choice_2A',
+    data: trial_info.forced_choice,
+    // you can add custom functions at different stages through a view's life cycle
+    // hook: {
+    //     after_response_enabled: check_response
+    // }
+});*/
+
+const task_one = dropdown_8_options ({
     trials: 1,
     name: 'task_one',
     trial_type: 'dropdown_8_options',
     data: part_one_trial_info.dropdown_8_options
 });
 
-const task_three = babeViews.selfPacedReading_ratingScale({
+const task_three = babeViews.view_generator("self_paced_reading_rating_scale", {
     trials: 2,
     name: 'task_three',
     trial_type: 'rating_scale',
     data: part_three_trial_info.rating_scale
 });
 
-const pause = babeViews.instructions({
+const pause = babeViews.view_generator("instructions", {
     trials: 1,
     name: 'pause',
     title: 'Pause',
@@ -127,7 +152,7 @@ const pause = babeViews.instructions({
     buttonText: 'Weiter'
 });
 
-const sentence_completion_1 = multiple_dropdown({
+const sentence_completion_1 = multiple_dropdown ({
     trials: 2,
     name: 'sentence_completion',
     trial_type: 'dropdown_sentence_completion',
@@ -135,7 +160,7 @@ const sentence_completion_1 = multiple_dropdown({
                              function(t) {return t.listNumber == sentence_completion_lists[0];}))
 });
 
-const sentence_completion_2 = multiple_dropdown({
+const sentence_completion_2 = multiple_dropdown ({
     trials: 2,
     name: 'sentence_completion',
     trial_type: 'dropdown_sentence_completion',
@@ -143,10 +168,15 @@ const sentence_completion_2 = multiple_dropdown({
                              function(t) {return t.listNumber == sentence_completion_lists[1];}))
 });
 
-const sentence_completion_3 = multiple_dropdown({
+const sentence_completion_3 = multiple_dropdown ({
     trials: 2,
     name: 'sentence_completion',
     trial_type: 'dropdown_sentence_completion',
     data: _.shuffle(_.filter(part_two_trial_info.multi_dropdown,
                              function(t) {return t.listNumber == sentence_completion_lists[2];}))
 });
+
+
+// There are many more templates available:
+// forced_choice, slider_rating, dropdown_choice, testbox_input, rating_scale, image_selection, sentence_choice,
+// key_press, self_paced_reading and self_paced_reading_rating_scale

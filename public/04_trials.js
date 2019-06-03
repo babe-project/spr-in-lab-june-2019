@@ -1,3 +1,6 @@
+// In this file you can specify the trial data for your experiment
+
+
 const sentence_completion_lists = _.shuffle([1,2,3,4]);
 
 const part_one_trial_info = {
