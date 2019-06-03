@@ -179,6 +179,17 @@ const part_two_trial_info = {
             choice_options_3: ['blau', 'grün', 'orange', 'gelb']
         },
         {
+            picture: 'images/Production/Test-1/1-homogeneous-1-heterogeneous/1c.png',
+            listNumber: 1,
+            picture_type: 'A', 
+			display: '1-homo-1-hetero',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+        },
+        {
             picture: 'images/Production/Test-1/1-homogeneous-1-heterogeneous/2a.png',
             listNumber: 2,
             picture_type: 'A', 
@@ -191,6 +202,17 @@ const part_two_trial_info = {
         },
         {
             picture: 'images/Production/Test-1/1-homogeneous-1-heterogeneous/2b.png',
+            listNumber: 2,
+            picture_type: 'A', 
+			display: '1-homo-1-hetero',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+        },
+        {
+            picture: 'images/Production/Test-1/1-homogeneous-1-heterogeneous/2c.png',
             listNumber: 2,
             picture_type: 'A', 
 			display: '1-homo-1-hetero',
@@ -223,19 +245,8 @@ const part_two_trial_info = {
             choice_options_3: ['blau', 'grün', 'orange', 'gelb']
         },
         {
-            picture: 'images/Production/Test-1/1-homogeneous-1-heterogeneous/4a.png',
-            listNumber: 4,
-            picture_type: 'A', 
-			display: '1-homo-1-hetero',
-            sentence_chunk_1: 'der',
-            sentence_chunk_2: 'auf dem Bild sind',
-            choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
-        },
-        {
-            picture: 'images/Production/Test-1/1-homogeneous-1-heterogeneous/4b.png',
-            listNumber: 4,
+            picture: 'images/Production/Test-1/1-homogeneous-1-heterogeneous/3c.png',
+            listNumber: 3,
             picture_type: 'A', 
 			display: '1-homo-1-hetero',
             sentence_chunk_1: 'der',
@@ -268,6 +279,17 @@ const part_two_trial_info = {
             choice_options_3: ['blau', 'grün', 'orange', 'gelb']
         },
         {
+            picture: 'images/Production/Test-1/2-homogeneous/1c.png',
+            listNumber: 1,
+            picture_type: 'A', 
+			display: '2-homo',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+        },
+        {
             picture: 'images/Production/Test-1/2-homogeneous/2a.png',
             listNumber: 2,
             picture_type: 'A', 
@@ -280,6 +302,17 @@ const part_two_trial_info = {
         },
         {
             picture: 'images/Production/Test-1/2-homogeneous/2b.png',
+            listNumber: 2,
+            picture_type: 'A', 
+			display: '2-homo',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+        },
+        {
+            picture: 'images/Production/Test-1/2-homogeneous/2c.png',
             listNumber: 2,
             picture_type: 'A', 
 			display: '2-homo',
@@ -312,19 +345,8 @@ const part_two_trial_info = {
             choice_options_3: ['blau', 'grün', 'orange', 'gelb']
         },
         {
-            picture: 'images/Production/Test-1/2-homogeneous/4a.png',
-            listNumber: 4,
-            picture_type: 'A', 
-			display: '2-homo',
-            sentence_chunk_1: 'der',
-            sentence_chunk_2: 'auf dem Bild sind',
-            choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
-        },
-        {
-            picture: 'images/Production/Test-1/2-homogeneous/4b.png',
-            listNumber: 4,
+            picture: 'images/Production/Test-1/2-homogeneous/3c.png',
+            listNumber: 3,
             picture_type: 'A', 
 			display: '2-homo',
             sentence_chunk_1: 'der',
@@ -357,6 +379,17 @@ const part_two_trial_info = {
             choice_options_3: ['blau', 'grün', 'orange', 'gelb']
         },
         {
+            picture: 'images/Production/Test-1/2-heterogeneous/1c.png',
+            listNumber: 1,
+            picture_type: 'A', 
+			display: '2-hetero',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+        },
+        {
             picture: 'images/Production/Test-1/2-heterogeneous/2a.png',
             listNumber: 2,
             picture_type: 'A', 
@@ -369,6 +402,17 @@ const part_two_trial_info = {
         },
         {
             picture: 'images/Production/Test-1/2-heterogeneous/2b.png',
+            listNumber: 2,
+            picture_type: 'A', 
+			display: '2-hetero',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+        },
+        {
+            picture: 'images/Production/Test-1/2-heterogeneous/2c.png',
             listNumber: 2,
             picture_type: 'A', 
 			display: '2-hetero',
@@ -401,19 +445,8 @@ const part_two_trial_info = {
             choice_options_3: ['blau', 'grün', 'orange', 'gelb']
         },
         {
-            picture: 'images/Production/Test-1/2-heterogeneous/4a.png',
-            listNumber: 4,
-            picture_type: 'A', 
-			display: '2-hetero',
-            sentence_chunk_1: 'der',
-            sentence_chunk_2: 'auf dem Bild sind',
-            choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
-        },
-        {
-            picture: 'images/Production/Test-1/2-heterogeneous/4b.png',
-            listNumber: 4,
+            picture: 'images/Production/Test-1/2-heterogeneous/3c.png',
+            listNumber: 3,
             picture_type: 'A', 
 			display: '2-hetero',
             sentence_chunk_1: 'der',
@@ -447,7 +480,29 @@ const part_two_trial_info = {
             choice_options_3: ['neben', 'in']
         },
         {
+            picture: 'images/Production/Test-2/1-homogeneous-1-heterogeneous/1c.png',
+            listNumber: 1,
+            picture_type: 'B', 
+			display: '1-homo-1-hetero',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['neben', 'in']
+        },
+        {
             picture: 'images/Production/Test-2/1-homogeneous-1-heterogeneous/2a.png',
+            listNumber: 2,
+            picture_type: 'B', 
+			display: '1-homo-1-hetero',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['neben', 'in']
+        },
+        {
+            picture: 'images/Production/Test-2/1-homogeneous-1-heterogeneous/2b.png',
             listNumber: 2,
             picture_type: 'B', 
 			display: '1-homo-1-hetero',
@@ -491,19 +546,8 @@ const part_two_trial_info = {
             choice_options_3: ['neben', 'in']
         },
         {
-            picture: 'images/Production/Test-2/1-homogeneous-1-heterogeneous/4a.png',
-            listNumber: 4,
-            picture_type: 'B', 
-			display: '1-homo-1-hetero',
-            sentence_chunk_1: 'der',
-            sentence_chunk_2: 'auf dem Bild sind',
-            choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['neben', 'in']
-        },
-        {
-            picture: 'images/Production/Test-2/1-homogeneous-1-heterogeneous/4b.png',
-            listNumber: 4,
+            picture: 'images/Production/Test-2/1-homogeneous-1-heterogeneous/3c.png',
+            listNumber: 3,
             picture_type: 'B', 
 			display: '1-homo-1-hetero',
             sentence_chunk_1: 'der',
@@ -536,6 +580,17 @@ const part_two_trial_info = {
             choice_options_3: ['neben', 'in']
         },
         {
+            picture: 'images/Production/Test-2/2-homogeneous/1c.png',
+            listNumber: 1,
+            picture_type: 'B', 
+			display: '2-homo',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['neben', 'in']
+        },
+        {
             picture: 'images/Production/Test-2/2-homogeneous/2a.png',
             listNumber: 2,
             picture_type: 'B', 
@@ -548,6 +603,17 @@ const part_two_trial_info = {
         },
         {
             picture: 'images/Production/Test-2/2-homogeneous/2b.png',
+            listNumber: 2,
+            picture_type: 'B', 
+			display: '2-homo',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['neben', 'in']
+        },
+        {
+            picture: 'images/Production/Test-2/2-homogeneous/2c.png',
             listNumber: 2,
             picture_type: 'B', 
 			display: '2-homo',
@@ -580,19 +646,8 @@ const part_two_trial_info = {
             choice_options_3: ['neben', 'in']
         },
         {
-            picture: 'images/Production/Test-2/2-homogeneous/4a.png',
-            listNumber: 4,
-            picture_type: 'B', 
-			display: '2-homo',
-            sentence_chunk_1: 'der',
-            sentence_chunk_2: 'auf dem Bild sind',
-            choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['neben', 'in']
-        },
-        {
-            picture: 'images/Production/Test-2/2-homogeneous/4b.png',
-            listNumber: 4,
+            picture: 'images/Production/Test-2/2-homogeneous/3c.png',
+            listNumber: 3,
             picture_type: 'B', 
 			display: '2-homo',
             sentence_chunk_1: 'der',
@@ -625,6 +680,17 @@ const part_two_trial_info = {
             choice_options_3: ['neben', 'in']
         },
         {
+            picture: 'images/Production/Test-2/2-heterogeneous/1c.png',
+            listNumber: 1,
+            picture_type: 'B', 
+			display: '2-hetero',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['neben', 'in']
+        },
+        {
             picture: 'images/Production/Test-2/2-heterogeneous/2a.png',
             listNumber: 2,
             picture_type: 'B', 
@@ -637,7 +703,18 @@ const part_two_trial_info = {
         },
         {
             picture: 'images/Production/Test-2/2-heterogeneous/2b.png',
-            listNumber: 2,
+            listNumber: 3,
+            picture_type: 'B', 
+			display: '2-hetero',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['neben', 'in']
+        },
+        {
+            picture: 'images/Production/Test-2/2-heterogeneous/2c.png',
+            listNumber: 3,
             picture_type: 'B', 
 			display: '2-hetero',
             sentence_chunk_1: 'der',
@@ -669,19 +746,8 @@ const part_two_trial_info = {
             choice_options_3: ['neben', 'in']
         },
         {
-            picture: 'images/Production/Test-2/2-heterogeneous/4a.png',
-            listNumber: 4,
-            picture_type: 'B', 
-			display: '2-hetero',
-            sentence_chunk_1: 'der',
-            sentence_chunk_2: 'auf dem Bild sind',
-            choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['neben', 'in']
-        },
-        {
-            picture: 'images/Production/Test-2/2-heterogeneous/4b.png',
-            listNumber: 4,
+            picture: 'images/Production/Test-2/2-heterogeneous/3c.png',
+            listNumber: 3,
             picture_type: 'B', 
 			display: '2-hetero',
             sentence_chunk_1: 'der',
@@ -715,6 +781,17 @@ const part_two_trial_info = {
             choice_options_3: ['groß', 'klein']
         },
         {
+            picture: 'images/Production/Test-3/1-homogeneous-1-heterogeneous/1c.png',
+            listNumber: 1,
+            picture_type: 'C', 
+			display: '1-homo-1-hetero',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['groß', 'klein']
+        },
+        {
             picture: 'images/Production/Test-3/1-homogeneous-1-heterogeneous/2a.png',
             listNumber: 2,
             picture_type: 'C', 
@@ -727,6 +804,17 @@ const part_two_trial_info = {
         },
         {
             picture: 'images/Production/Test-3/1-homogeneous-1-heterogeneous/2b.png',
+            listNumber: 2,
+            picture_type: 'C', 
+			display: '1-homo-1-hetero',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['groß', 'klein']
+        },
+        {
+            picture: 'images/Production/Test-3/1-homogeneous-1-heterogeneous/2c.png',
             listNumber: 2,
             picture_type: 'C', 
 			display: '1-homo-1-hetero',
@@ -759,19 +847,8 @@ const part_two_trial_info = {
             choice_options_3: ['groß', 'klein']
         },
         {
-            picture: 'images/Production/Test-3/1-homogeneous-1-heterogeneous/4a.png',
-            listNumber: 4,
-            picture_type: 'C', 
-			display: '1-homo-1-hetero',
-            sentence_chunk_1: 'der',
-            sentence_chunk_2: 'auf dem Bild sind',
-            choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['groß', 'klein']
-        },
-        {
-            picture: 'images/Production/Test-3/1-homogeneous-1-heterogeneous/4b.png',
-            listNumber: 4,
+            picture: 'images/Production/Test-3/1-homogeneous-1-heterogeneous/3c.png',
+            listNumber: 3,
             picture_type: 'C', 
 			display: '1-homo-1-hetero',
             sentence_chunk_1: 'der',
@@ -804,6 +881,17 @@ const part_two_trial_info = {
             choice_options_3: ['groß', 'klein']
         },
         {
+            picture: 'images/Production/Test-3/2-homogeneous/1c.png',
+            listNumber: 1,
+            picture_type: 'C', 
+			display: '2-homo',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['groß', 'klein']
+        },
+        {
             picture: 'images/Production/Test-3/2-homogeneous/2a.png',
             listNumber: 2,
             picture_type: 'C', 
@@ -826,29 +914,18 @@ const part_two_trial_info = {
             choice_options_3: ['groß', 'klein']
         },
         {
+            picture: 'images/Production/Test-3/2-homogeneous/2c.png',
+            listNumber: 2,
+            picture_type: 'C', 
+			display: '2-homo',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['groß', 'klein']
+        },
+        {
             picture: 'images/Production/Test-3/2-homogeneous/3a.png',
-            listNumber: 3,
-            picture_type: 'C', 
-			display: '2-homo',
-            sentence_chunk_1: 'der',
-            sentence_chunk_2: 'auf dem Bild sind',
-            choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['groß', 'klein']
-        },
-        {
-            picture: 'images/Production/Test-3/2-homogeneous/3b.png',
-            listNumber: 3,
-            picture_type: 'C', 
-			display: '2-homo',
-            sentence_chunk_1: 'der',
-            sentence_chunk_2: 'auf dem Bild sind',
-            choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['groß', 'klein']
-        },
-        {
-            picture: 'images/Production/Test-3/2-homogeneous/4a.png',
             listNumber: 4,
             picture_type: 'C', 
 			display: '2-homo',
@@ -859,7 +936,18 @@ const part_two_trial_info = {
             choice_options_3: ['groß', 'klein']
         },
         {
-            picture: 'images/Production/Test-3/2-homogeneous/4b.png',
+            picture: 'images/Production/Test-3/2-homogeneous/3b.png',
+            listNumber: 4,
+            picture_type: 'C', 
+			display: '2-homo',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['groß', 'klein']
+        },
+        {
+            picture: 'images/Production/Test-3/2-homogeneous/3c.png',
             listNumber: 4,
             picture_type: 'C', 
 			display: '2-homo',
@@ -893,6 +981,17 @@ const part_two_trial_info = {
             choice_options_3: ['groß', 'klein']
         },
         {
+            picture: 'images/Production/Test-3/2-heterogeneous/1c.png',
+            listNumber: 1,
+            picture_type: 'C', 
+			display: '2-hetero',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['groß', 'klein']
+        },
+        {
             picture: 'images/Production/Test-3/2-heterogeneous/2a.png',
             listNumber: 2,
             picture_type: 'C', 
@@ -905,6 +1004,17 @@ const part_two_trial_info = {
         },
         {
             picture: 'images/Production/Test-3/2-heterogeneous/2b.png',
+            listNumber: 2,
+            picture_type: 'C', 
+			display: '2-hetero',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_3: ['groß', 'klein']
+        },
+        {
+            picture: 'images/Production/Test-3/2-heterogeneous/2c.png',
             listNumber: 2,
             picture_type: 'C', 
 			display: '2-hetero',
@@ -937,19 +1047,8 @@ const part_two_trial_info = {
             choice_options_3: ['groß', 'klein']
         },
         {
-            picture: 'images/Production/Test-3/2-heterogeneous/4a.png',
-            listNumber: 4,
-            picture_type: 'C', 
-			display: '2-hetero',
-            sentence_chunk_1: 'der',
-            sentence_chunk_2: 'auf dem Bild sind',
-            choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['groß', 'klein']
-        },
-        {
-            picture: 'images/Production/Test-3/2-heterogeneous/4b.png',
-            listNumber: 4,
+            picture: 'images/Production/Test-3/2-heterogeneous/3c.png',
+            listNumber: 3,
             picture_type: 'C', 
 			display: '2-hetero',
             sentence_chunk_1: 'der',
