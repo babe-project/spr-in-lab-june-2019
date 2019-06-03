@@ -513,7 +513,7 @@ const part_two_trial_info = {
             choice_options_3: ['neben', 'in']
         },
         {
-            picture: 'images/Production/Test-2/1-homogeneous-1-heterogeneous/2b.png',
+            picture: 'images/Production/Test-2/1-homogeneous-1-heterogeneous/2c.png',
             listNumber: 2,
             picture_type: 'B', 
 			display: '1-homo-1-hetero',
@@ -703,7 +703,7 @@ const part_two_trial_info = {
         },
         {
             picture: 'images/Production/Test-2/2-heterogeneous/2b.png',
-            listNumber: 3,
+            listNumber: 2,
             picture_type: 'B', 
 			display: '2-hetero',
             sentence_chunk_1: 'der',
@@ -714,7 +714,7 @@ const part_two_trial_info = {
         },
         {
             picture: 'images/Production/Test-2/2-heterogeneous/2c.png',
-            listNumber: 3,
+            listNumber: 2,
             picture_type: 'B', 
 			display: '2-hetero',
             sentence_chunk_1: 'der',
@@ -926,7 +926,7 @@ const part_two_trial_info = {
         },
         {
             picture: 'images/Production/Test-3/2-homogeneous/3a.png',
-            listNumber: 4,
+            listNumber: 3,
             picture_type: 'C', 
 			display: '2-homo',
             sentence_chunk_1: 'der',
@@ -937,7 +937,7 @@ const part_two_trial_info = {
         },
         {
             picture: 'images/Production/Test-3/2-homogeneous/3b.png',
-            listNumber: 4,
+            listNumber: 3,
             picture_type: 'C', 
 			display: '2-homo',
             sentence_chunk_1: 'der',
@@ -948,7 +948,7 @@ const part_two_trial_info = {
         },
         {
             picture: 'images/Production/Test-3/2-homogeneous/3c.png',
-            listNumber: 4,
+            listNumber: 3,
             picture_type: 'C', 
 			display: '2-homo',
             sentence_chunk_1: 'der',
