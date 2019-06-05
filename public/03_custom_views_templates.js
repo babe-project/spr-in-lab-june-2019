@@ -59,7 +59,7 @@ const multiple_dropdown = function(config) {
                 </select>
                 .
                 </p>
-                <button id='next' class='babe-view-button babe-nodisplay'>Next</button>
+                <button id='next' class='babe-view-button babe-nodisplay'>Weiter</button>
             </div>`;
 
             const answerContainerElem_Type_B = `<div class='babe-view-answer-container babe-response-dropdown'>
@@ -83,7 +83,7 @@ const multiple_dropdown = function(config) {
                 </select>
                 der Box.
                 </p>
-                <button id='next' class='babe-view-button babe-nodisplay'>Next</button>
+                <button id='next' class='babe-view-button babe-nodisplay'>Weiter</button>
             </div>`;
 
             const answerContainerElem_Type_C = `<div class='babe-view-answer-container babe-response-dropdown'>
@@ -107,7 +107,7 @@ const multiple_dropdown = function(config) {
                 </select>
                 .
                 </p>
-                <button id='next' class='babe-view-button babe-nodisplay'>Next</button>
+                <button id='next' class='babe-view-button babe-nodisplay'>Weiter</button>
             </div>`;
 
             const  answerContainerElem = config.data[CT].picture_type == 'A' ?
@@ -242,7 +242,7 @@ const dropdown_8_options = function(config) {
                     <option value=${answer_option_8}>${answer_option_8}</option>
                 </select>
                 </p>
-                <button id='next' class='babe-view-button babe-nodisplay'>Next</button>
+                <button id='next' class='babe-view-button babe-nodisplay'>Weiter</button>
             </div>`;
 
             $("#main").html(viewTemplate);

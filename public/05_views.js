@@ -24,7 +24,7 @@ const intro = babeViews.view_generator("intro",{
     name: 'intro',
     title: 'Herzlich Willkommen',
     // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
-    text: 'Vielen Dank, dass Sie an unserem Experiment teilnehmen. Im Folgenden werden wir Ihnen kurz erklären, wie das Experiment abläuft. Bitte klicken Sie dazu auf den Start Button.',
+    text: 'Vielen Dank, dass du an unserem Experiment teilnimmst. Im Folgenden werden wir dir kurz erklären, wie das Experiment abläuft. Bitte klicke dazu auf den Start Button.',
    buttonText: 'Start'    
 });
 
@@ -32,25 +32,25 @@ const intro = babeViews.view_generator("intro",{
 const instructionsTask1 = babeViews.view_generator("instructions",{
     trials: 1,
     name: 'instrucions_task_one',
-    title: 'Anleitung color blindness test',
-    text:  'This is a sample instructions view.',
-    buttonText: 'go to test'
+    title: 'Anleitung - Teil I',
+    text:  'Im ersten Teil des Experiments sollst du die Farbe der Form angeben, die du auf dem Bildschirm siehst.',
+    buttonText: 'Weiter'
 });
 
 const instructionsTask2 = babeViews.view_generator("instructions",{
     trials: 1,
     name: 'instructions_task_two',
-    title: 'Anleitung production task',
-    text:  'This is a sample instructions view.',
-    buttonText: 'go to production task'
+    title: 'Anleitung - Teil II',
+    text:  'In diesem Teil des Experiments sollst du die Bilder, die du auf dem Bildschirm siehst, beschreiben, indem du Lücken in unvollständigen Sätzen ausfüllst.',
+    buttonText: 'Weiter'
 });
 
 const instructionsTask3 = babeViews.view_generator("instructions",{
     trials: 1,
     name: 'instructions_task_three',
-    title: 'Anleitung SPR task',
-    text:  `This is a sample instructions view.`,
-    buttonText: 'go to SPR task'
+    title: 'Anleitung - Teil III',
+    text:  'Im letzten Teil des Experiments sollst du dir nun Beschreibungen der Bilder, die du vorher gesehen hast, durchlesen, und beurteilen wie gut diese Beschreibungen sind. In jedem Durchgang wird dir gesagt, auf welchen Aspekt des Bildes du achten sollst, entweder die Größe, die Farbe, oder die Position der Formen. Du kannst die Beschreibung von 1, überhaupt nicht zutreffend, bis 7, vollkommen zutreffend, bewerten.',
+    buttonText: 'Weiter'
 });
 
 const instructionsPostTest = babeViews.view_generator("instructions",{
@@ -148,7 +148,7 @@ const pause = babeViews.view_generator("instructions", {
     trials: 1,
     name: 'pause',
     title: 'Pause',
-    text: `Click the button to continue the experiment`,
+    text: 'Klicke auf den Button um das Experiment fortzusetzen.',
     buttonText: 'Weiter'
 });
 
