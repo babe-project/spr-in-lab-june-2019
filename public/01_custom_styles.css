@@ -2,10 +2,9 @@
 
 /* Example of extending a given babe-style */
 
-/*.babe-view-stimulus-container {
-    height: auto;
-    max-height: 350px;
-} */
+.babe-view-stimulus-container {
+    height: 220px;
+}
 
 /* Display all titles in red */
 /*.babe-view-title {

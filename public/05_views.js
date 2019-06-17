@@ -24,8 +24,8 @@ const intro = babeViews.view_generator("intro",{
     name: 'intro',
     title: 'Herzlich Willkommen',
     // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
-    text: 'Vielen Dank, dass du an unserem Experiment teilnimmst. Im Folgenden werden wir dir kurz erklären, wie das Experiment abläuft. Bitte klicke dazu auf den Start Button.',
-   buttonText: 'Start'    
+    text: 'Vielen Dank, dass Du an unserem Experiment teilnimmst. Im Folgenden werden wir Dir kurz erklären, wie das Experiment abläuft. Bitte klicke dazu auf den Start Knopf.',
+   buttonText: 'Start'
 });
 
 // For most tasks, you need instructions views
@@ -33,7 +33,7 @@ const instructionsTask1 = babeViews.view_generator("instructions",{
     trials: 1,
     name: 'instrucions_task_one',
     title: 'Anleitung - Teil I',
-    text:  'Im ersten Teil des Experiments sollst du die Farbe der Form angeben, die du auf dem Bildschirm siehst.',
+    text:  'Im Verlauf dieses Experiments werden geometrische Formen in verschiedenen Farben gezeigt. Es ist wichtig, dass die Farben korrekt wahrgenommen werden. Daher beginnen wir im ersten Teil des Experiments damit, dass Du bitte einfach nur die Farbe der Form angibst, die du auf dem Bildschirm siehst.',
     buttonText: 'Weiter'
 });
 
@@ -144,7 +144,31 @@ const task_three = babeViews.view_generator("self_paced_reading_rating_scale", {
     data: part_three_trial_info.rating_scale
 });
 
-const pause = babeViews.view_generator("instructions", {
+const pause_1 = babeViews.view_generator("instructions", {
+    trials: 1,
+    name: 'pause',
+    title: 'Pause',
+    text: 'Klicke auf den Button um das Experiment fortzusetzen.',
+    buttonText: 'Weiter'
+});
+
+const pause_2 = babeViews.view_generator("instructions", {
+    trials: 1,
+    name: 'pause',
+    title: 'Pause',
+    text: 'Klicke auf den Button um das Experiment fortzusetzen.',
+    buttonText: 'Weiter'
+});
+
+const pause_3 = babeViews.view_generator("instructions", {
+    trials: 1,
+    name: 'pause',
+    title: 'Pause',
+    text: 'Klicke auf den Button um das Experiment fortzusetzen.',
+    buttonText: 'Weiter'
+});
+
+const pause_4 = babeViews.view_generator("instructions", {
     trials: 1,
     name: 'pause',
     title: 'Pause',

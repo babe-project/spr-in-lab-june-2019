@@ -222,11 +222,10 @@ const dropdown_8_options = function(config) {
             const answer_option_7 = config.data[CT].choice_options[6];
             const answer_option_8 = config.data[CT].choice_options[7];
             const viewTemplate = `<div class='babe-view'>
-                <h1 class='babe-view-title'>${this.title}</h1>
-                <p class='babe-view-question babe-view-question'>${question}</p>
                 <div class='babe-view-stimulus-container'>
                     <div class='babe-view-stimulus babe-nodisplay'></div>
                     </div>
+                <p class='babe-view-question babe-view-question'>${question}</p>
                 </div>`;
 
             const answerContainerElem = `<div class='babe-view-answer-container babe-response-dropdown'>
