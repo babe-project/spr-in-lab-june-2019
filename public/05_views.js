@@ -24,7 +24,7 @@ const intro = babeViews.view_generator("intro",{
     name: 'intro',
     title: 'Herzlich Willkommen',
     // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
-    text: 'Vielen Dank, dass Du an unserem Experiment teilnimmst. Im Folgenden werden wir Dir kurz erklären, wie das Experiment abläuft. Bitte klicke dazu auf den Start Knopf.',
+    text: 'Vielen Dank, dass Du an unserem Experiment teilnimmst. Im Folgenden werden wir Dir kurz erklären, wie das Experiment abläuft. Bitte klicke dazu auf den "Start"-Knopf.',
    buttonText: 'Start'
 });
 
@@ -132,9 +132,10 @@ const thanks = babeViews.view_generator("thanks", {
 
 const task_one = dropdown_8_options ({
     trials: 1,
+    // trials: part_one_trial_info.dropdown_8_options.length,
     name: 'task_one',
     trial_type: 'dropdown_8_options',
-    data: part_one_trial_info.dropdown_8_options
+    data: _.shuffle(part_one_trial_info.dropdown_8_options)
 });
 
 const task_three = babeViews.view_generator("self_paced_reading_rating_scale", {
