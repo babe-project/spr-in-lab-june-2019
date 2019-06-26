@@ -49,7 +49,7 @@ const instructionsTask3 = babeViews.view_generator("instructions",{
     trials: 1,
     name: 'instructions_task_three',
     title: 'Anleitung - Teil III',
-    text:  'Im letzten Teil des Experiments sollst du dir nun Beschreibungen der Bilder, die du vorher gesehen hast, durchlesen, und beurteilen wie gut diese Beschreibungen sind. In jedem Durchgang wird dir gesagt, auf welchen Aspekt des Bildes du achten sollst, entweder die Größe, die Farbe, oder die Position der Formen. Du kannst die Beschreibung von 1, überhaupt nicht zutreffend, bis 7, vollkommen zutreffend, bewerten.',
+    text:  'Im letzten Teil des Experiments sollst Du dir nun Beschreibungen der Bilder, die du vorher gesehen hast, durchlesen, und beurteilen, wie gut diese Beschreibungen sind. In jedem Durchgang wird Dir gesagt, auf welchen Aspekt des Bildes Du achten sollst, entweder die Größe, die Farbe, oder die Position der Formen. Du kannst die Beschreibung von 1, überhaupt nicht zutreffend, bis 7, vollkommen zutreffend, bewerten. <br> <br> Vorsicht: die Sätze, die angezeigt werden, werden nur Stück für Stück angezeigt. <b>Drücke auf die Leertaste, um das nächste Wort anzeigen zu lassen.</a> Versuche, jedes Wort zu lesen, und schon während des Lesens zu beurteilen, ob der Satz eine angemessene Beschreibung des Bildes ist bzw. werden könnte.',
     buttonText: 'Weiter'
 });
 
