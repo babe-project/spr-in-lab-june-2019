@@ -1065,1870 +1065,1870 @@ const part_three_trial_info = {
         // Type A
         // All False
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/AllFalse/1a.png',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Dreiecke | auf dem Bild | sind | orange',
+            sentence: 'Alle | der | Dreiecke | auf | dem | Bild | sind | orange.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/AllFalse/1b.png',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | blau',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | blau.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/AllFalse/2a.png',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Dreiecke | auf dem Bild | sind | gelb',
+            sentence: 'Alle | der | Dreiecke | auf | dem | Bild | sind | gelb.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/AllFalse/2b.png',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | grün',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/AllFalse/3a.png',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | grün',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/AllFalse/3b.png',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Dreiecke | auf dem Bild | sind | grün',
+            sentence: 'Alle | der | Dreiecke | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form',
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!',
 			picture: 'images/SPR/Test-1/AllFalse/4a.png',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Dreiecke | auf dem Bild | sind | gelb',
+            sentence: 'Alle | der | Dreiecke | auf | dem | Bild | sind | gelb.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/AllFalse/4b.png',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Dreiecke | auf dem Bild | sind | blau',
+            sentence: 'Alle | der | Dreiecke | auf | dem | Bild | sind | blau.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // All Biased
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedAll/1a.png',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | blau',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | blau.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form',  
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!',  
 			picture: 'images/SPR/Test-1/BiasedAll/1b.png',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Dreiecke | auf dem Bild | sind | blau',
+            sentence: 'Alle | der | Dreiecke | auf | dem | Bild | sind | blau.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedAll/2a.png',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | blau',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | blau.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedAll/2b.png',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | grün',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedAll/3a.png',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | grün',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedAll/3b.png',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Dreiecke | auf dem Bild | sind | blau',
+            sentence: 'Alle | der | Dreiecke | auf | dem | Bild | sind | blau.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedAll/4a.png',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | blau',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | blau.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedAll/4b.png',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | gelb',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | gelb.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // Some Biased
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedSome/1a.png',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | blau',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | blau.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedSome/1b.png',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | grün',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedSome/2a.png',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | grün',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedSome/2b.png',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | gelb',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | gelb.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedSome/3a.png',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | orange',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | orange.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedSome/3b.png',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | grün',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedSome/4a.png',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | grün',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedSome/4b.png',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | gelb',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | gelb.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // Some False
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/FalseSome/1a.png',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | blau',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | blau.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/FalseSome/1b.png',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | orange',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | orange.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/FalseSome/2a.png',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | grün',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/FalseSome/2b.png',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | grün',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/FalseSome/3a.png',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | blau',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | blau.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/FalseSome/3b.png',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | grün',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/FalseSome/4a.png',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | gelb',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | gelb.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/FalseSome/4b.png',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | orange',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | orange.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // All Unbiased
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedAll/1a.png',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | blau',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | blau.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedAll/1b.png',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | gelb',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | gelb.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedAll/2a.png',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Dreicke | auf dem Bild | sind | orange',
+            sentence: 'Alle | der | Dreicke | auf | dem | Bild | sind | orange.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedAll/2b.png',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | grün',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedAll/3a.png',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Dreiecke | auf dem Bild | sind | gelb',
+            sentence: 'Alle | der | Dreiecke | auf | dem | Bild | sind | gelb.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedAll/3b.png',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | grün',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedAll/4a.png',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | gelb',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | gelb.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedAll/4b.png',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | orange',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | orange.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // Some Unbiased
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedSome/1a.png',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | gelb',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | gelb.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedSome/1b.png',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | gelb',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | gelb.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedSome/2a.png',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | gelb',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | gelb.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedSome/2b.png',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | gelb',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | gelb.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedSome/3a.png',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | orange',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | orange.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedSome/3b.png',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | gelb',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | gelb.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedSome/4a.png',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | gelb',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | gelb.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedSome/4b.png',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | blau',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | blau.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // Some Underspecified
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnderspecifiedSome/1a.png',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | grün',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnderspecifiedSome/1b.png',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | grün',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnderspecifiedSome/2a.png',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | orange',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | orange.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnderspecifiedSome/2b.png',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | orange',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | orange.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnderspecifiedSome/3a.png',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | grün',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnderspecifiedSome/3b.png',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | grün',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnderspecifiedSome/4a.png',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | blau',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | blau.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Farbe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnderspecifiedSome/4b.png',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | gelb',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | gelb.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // Type B
         // All False
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/AllFalse/1a.png',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | in der Box',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/AllFalse/1b.png',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | neben der Box',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/AllFalse/2a.png',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | neben der Box',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/AllFalse/2b.png',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | in der Box',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/AllFalse/3a.png',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | in der Box',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/AllFalse/3b.png',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | in der Box',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/AllFalse/4a.png',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | in der Box',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/AllFalse/4b.png',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Dreiecke | auf dem Bild | sind | in der Box',
+            sentence: 'Alle | der | Dreiecke | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // All Biased
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedAll/1a.png',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | in der Box',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedAll/1b.png',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | neben der Box',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedAll/2a.png',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | neben der Box',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedAll/2b.png',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | in der Box',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedAll/3a.png',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | in der Box',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedAll/3b.png',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | in der Box',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedAll/4a.png',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | neben der Box',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedAll/4b.png',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Dreiecke | auf dem Bild | sind | in der Box',
+            sentence: 'Alle | der | Dreiecke | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // Some Biased
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedSome/1a.png',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | neben der Box',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedSome/1b.png',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | in der Box',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedSome/2a.png',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | in der Box',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedSome/2b.png',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | neben der Box',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedSome/3a.png',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | neben der Box',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedSome/3b.png',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | neben der Box',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedSome/4a.png',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | neben der Box',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedSome/4b.png',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | neben der Box',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // Some False
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/FalseSome/1a.png',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | in der Box',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/FalseSome/1b.png',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | neben der Box',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/FalseSome/2a.png',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | in der Box',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/FalseSome/2b.png',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | neben der Box',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/FalseSome/3a.png',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | in der Box',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/FalseSome/3b.png',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | neben der Box',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/FalseSome/4a.png',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | in der Box',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/FalseSome/4b.png',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | neben der Box',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // All Unbiased
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedAll/1a.png',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | neben der Box',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedAll/1b.png',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | in der Box',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedAll/2a.png',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | neben der Box',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedAll/2b.png',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | in der Box',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedAll/3a.png',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Dreiecke | auf dem Bild | sind | in der Box',
+            sentence: 'Alle | der | Dreiecke | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedAll/3b.png',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | in der Box',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedAll/4a.png',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | neben der Box',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedAll/4b.png',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | in der Box',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // Some Unbiased
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedSome/1a.png',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | in der Box',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedSome/1b.png',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | neben der Box',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedSome/2a.png',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | in der Box',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedSome/2b.png',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | neben der Box',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedSome/3a.png',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | in der Box',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedSome/3b.png',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | neben der Box',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedSome/4a.png',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | in der Box',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedSome/4b.png',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | neben der Box',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         }, 
         // Some Underspecified
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnderspecifiedSome/1a.png',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | in der Box',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnderspecifiedSome/1b.png',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | neben der Box',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnderspecifiedSome/2a.png',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | neben der Box',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | neben | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnderspecifiedSome/2b.png',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | in der Box',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnderspecifiedSome/3a.png',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | in der Box',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnderspecifiedSome/3b.png',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | in der Box',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnderspecifiedSome/4a.png',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | in der Box',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Position der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnderspecifiedSome/4b.png',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | in der Box',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // Type C
         // All False
-        {
-            QUD: 'Achte auf die Größe der Form', 
+        { 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/AllFalse/1a.png',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | groß',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/AllFalse/1b.png',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | klein',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
          {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/AllFalse/2a.png',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | groß',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/AllFalse/2b.png',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | klein',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
          {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/AllFalse/3a.png',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | groß',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/AllFalse/3b.png',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Dreiecke | auf dem Bild | sind | klein',
+            sentence: 'Alle | der | Dreiecke | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
          {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/AllFalse/4a.png',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Dreiecke | auf dem Bild | sind | groß',
+            sentence: 'Alle | der | Dreiecke | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/AllFalse/4b.png',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | klein',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // All Biased
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedAll/1a.png',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | groß',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedAll/1b.png',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | klein',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedAll/2a.png',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | groß',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedAll/2b.png',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Dreiecke | auf dem Bild | sind | klein',
+            sentence: 'Alle | der | Dreiecke | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedAll/3a.png',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | groß',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedAll/3b.png',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Dreiecke | auf dem Bild | sind | klein',
+            sentence: 'Alle | der | Dreiecke | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedAll/4a.png',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Dreiecke | auf dem Bild | sind | groß',
+            sentence: 'Alle | der | Dreiecke | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedAll/4b.png',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | klein',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // Some Biased
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedSome/1a.png',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | klein',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedSome/1b.png',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | groß',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedSome/2a.png',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | klein',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedSome/2b.png',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | groß',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedSome/3a.png',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | klein',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedSome/3b.png',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreicke | auf dem Bild | sind | groß',
+            sentence: 'Einige | der | Dreicke | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedSome/4a.png',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | klein',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedSome/4b.png',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreicke | auf dem Bild | sind | groß',
+            sentence: 'Einige | der | Dreicke | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // Some False
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/FalseSome/1a.png',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | klein',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/FalseSome/1b.png',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | groß',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/FalseSome/2a.png',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | klein',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/FalseSome/2b.png',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | groß',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/FalseSome/3a.png',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | klein',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/FalseSome/3b.png',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | groß',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/FalseSome/4a.png',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | klein',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/FalseSome/4b.png',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | groß',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // All Unbiased
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedAll/1a.png',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | groß',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedAll/1b.png',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | klein',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedAll/2a.png',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | groß',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedAll/2b.png',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Dreiecke | auf dem Bild | sind | klein',
+            sentence: 'Alle | der | Dreiecke | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedAll/3a.png',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Kreise | auf dem Bild | sind | klein',
+            sentence: 'Alle | der | Kreise | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedAll/3b.png',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | klein',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedAll/4a.png',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | groß',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedAll/4b.png',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Alle | der | Quadrate | auf dem Bild | sind | groß',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // Some Unbiased
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedSome/1a.png',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | klein',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedSome/1b.png',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | groß',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedSome/2a.png',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | klein',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedSome/2b.png',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | groß',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedSome/3a.png',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | klein',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedSome/3b.png',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | groß',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedSome/4a.png',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | klein',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedSome/4b.png',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | groß',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         // Some Underspecified
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnderspecifiedSome/1a.png',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | groß',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnderspecifiedSome/1b.png',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf dem Bild | sind | klein',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnderspecifiedSome/2a.png',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | groß',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnderspecifiedSome/2b.png',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | klein',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnderspecifiedSome/3a.png',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | groß',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnderspecifiedSome/3b.png',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | klein',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnderspecifiedSome/4a.png',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf dem Bild | sind | groß',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | groß.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
-            QUD: 'Achte auf die Größe der Form', 
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnderspecifiedSome/4b.png',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf dem Bild | sind | klein',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | klein.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
-            help_text: 'Drücken Sie die Leertaste, um den Satz zu lesen.'
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         }
     ]
 }

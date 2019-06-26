@@ -61,10 +61,93 @@ check_response = function(data, next) {
     })
 }
 
-// Declare your hooks here
 
+// hides the picture in SPR trials after the response is enabled
 
-/* Generators for custom view templates, answer container elements and enable response functions
-*
-*
-*/
+const handle_SPR_response_hide_picture = function(config, CT, babe, answer_container_generator, startingTime){
+
+        const sentenceList = config.data[CT].sentence.trim().split(" | ");
+        let spaceCounter = 0;
+        let wordList;
+        let readingTimes = [];
+
+        // shows the sentence word by word on SPACE press
+        const handle_key_press = function(e) {
+
+            if (e.which === 32 && spaceCounter < wordList.length) {
+
+                wordList[spaceCounter].classList.remove(
+                    "spr-word-hidden"
+                );
+
+                if (spaceCounter === 0) {
+                    $(".babe-help-text").addClass("babe-invisible");
+                    // customization here: hide QUD and picture when finished reading
+                    $(".babe-view-qud").addClass("babe-invisible");
+                    $(".babe-view-stimulus").addClass("babe-invisible");
+                    // $(".babe-view-stimulus-container").height(10);
+                }
+
+                if (spaceCounter > 0) {
+                    wordList[spaceCounter - 1].classList.add(
+                        "spr-word-hidden"
+                    );
+                }
+
+                readingTimes.push(Date.now());
+                spaceCounter++;
+
+            } else if (
+                e.which === 32 &&
+                spaceCounter === wordList.length
+            ) {
+
+                wordList[spaceCounter - 1].classList.add(
+                    "spr-word-hidden"
+                );
+
+                $(".babe-view").append(answer_container_generator(config, CT));
+
+                $("input[name=answer]").on("change", function() {
+                    const RT = Date.now() - startingTime;
+                    let reactionTimes = readingTimes
+                    .reduce((result, current, idx) => {
+                        return result.concat(
+                            readingTimes[idx + 1] - readingTimes[idx]
+                        );
+                    }, [])
+                    .filter((item) => isNaN(item) === false);
+                    let trial_data = {
+                        trial_name: config.name,
+                        trial_number: CT + 1,
+                        response: $("input[name=answer]:checked").val(),
+                        reaction_times: reactionTimes,
+                        time_spent: RT
+                    };
+
+                    trial_data = babeUtils.view.save_config_trial_data(config.data[CT], trial_data);
+
+                    babe.trial_data.push(trial_data);
+                    babe.findNextView();
+                });
+                readingTimes.push(Date.now());
+                spaceCounter++;
+            }
+        };
+        // shows the help text
+        $(".babe-help-text").removeClass("babe-nodisplay");
+
+        // creates the sentence
+        sentenceList.map((word) => {
+            $(".babe-spr-sentence").append(
+                `<span class='spr-word spr-word-hidden'>${word}</span>`
+            );
+        });
+
+        // creates an array of spr word elements
+        wordList = $(".spr-word").toArray();
+
+        // attaches an eventListener to the body for space
+        $("body").on("keydown", handle_key_press);
+
+    }

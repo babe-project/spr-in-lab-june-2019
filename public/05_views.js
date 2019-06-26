@@ -143,7 +143,10 @@ const task_three = babeViews.view_generator("self_paced_reading_rating_scale", {
     name: 'task_three',
     trial_type: 'rating_scale',
     data: part_three_trial_info.rating_scale
-});
+  },
+  {
+    handle_response_function: handle_SPR_response_hide_picture
+  });
 
 const pause_1 = babeViews.view_generator("instructions", {
     trials: 1,
