@@ -138,15 +138,26 @@ const task_one = dropdown_8_options ({
     data: _.shuffle(part_one_trial_info.dropdown_8_options)
 });
 
-const task_three = babeViews.view_generator("self_paced_reading_rating_scale", {
+const task_three_1 = babeViews.view_generator("self_paced_reading_rating_scale", {
     trials: 2,
     name: 'task_three',
     trial_type: 'rating_scale',
     data: _.shuffle(_.filter(part_three_trial_info.rating_scale,
-                             function(t) {return t.listNumber == spr_lists[0] || spr_lists[1];}))
+                             function(t) {return t.listNumber == spr_lists[0];}))
   },
   {
     handle_response_function: handle_SPR_response_hide_picture
+  });
+
+const task_three_2 = babeViews.view_generator("self_paced_reading_rating_scale", {
+    trials: 2,
+    name: 'task_three',
+    trial_type: 'rating_scale',
+    data: _.shuffle(_.filter(part_three_trial_info.rating_scale,
+                             function(t) {return t.listNumber == spr_lists[1];}))
+},
+    {
+   handle_response_function: handle_SPR_response_hide_picture
   });
 
 const pause_1 = babeViews.view_generator("instructions", {

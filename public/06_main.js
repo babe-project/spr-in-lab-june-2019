@@ -26,9 +26,9 @@ $("document").ready(function() {
             sentence_completion_3,
             pause_3,*/
             instructionsTask3,
-            task_three,
+            task_three_1,
             pause_4,
-            task_three,
+            task_three_2,
             instructionsPostTest,
             post_test,
             thanks,
