@@ -142,7 +142,8 @@ const task_three = babeViews.view_generator("self_paced_reading_rating_scale", {
     trials: 2,
     name: 'task_three',
     trial_type: 'rating_scale',
-    data: part_three_trial_info.rating_scale
+    data: _.shuffle(_.filter(part_three_trial_info.rating_scale,
+                             function(t) {return t.listNumber == spr_lists[0] || spr_lists[1];}))
   },
   {
     handle_response_function: handle_SPR_response_hide_picture
@@ -189,7 +190,7 @@ const sentence_completion_1 = multiple_dropdown ({
 });
 
 const sentence_completion_2 = multiple_dropdown ({
-    trials: 2,
+    trials: 9,
     name: 'sentence_completion',
     trial_type: 'dropdown_sentence_completion',
     data: _.shuffle(_.filter(part_two_trial_info.multi_dropdown,
@@ -197,7 +198,7 @@ const sentence_completion_2 = multiple_dropdown ({
 });
 
 const sentence_completion_3 = multiple_dropdown ({
-    trials: 2,
+    trials: 9,
     name: 'sentence_completion',
     trial_type: 'dropdown_sentence_completion',
     data: _.shuffle(_.filter(part_two_trial_info.multi_dropdown,

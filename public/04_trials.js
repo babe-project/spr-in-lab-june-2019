@@ -3,151 +3,81 @@
 
 const sentence_completion_lists = _.shuffle([1,2,3]);
 
+const spr_lists = _.shuffle([1,2,3,4]);
+
 const part_one_trial_info = {
     dropdown_8_options: [
         {
             picture: 'images/Color-test/Colortest13.png',
             question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
+			choice_options: _.shuffle(['blau', 'grün', 'gelb', 'orange']),
             right_answer: 'blau',
-        },
-        {
-            picture: 'images/Color-test/Colortest14.png',
-            question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
-            right_answer: 'rosa',
-        },
-        {
-            picture: 'images/Color-test/Colortest15.png',
-            question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
-            right_answer: 'rot',
         },
         {
             picture: 'images/Color-test/Colortest16.png',
             question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
+			choice_options: _.shuffle(['blau', 'grün', 'gelb', 'orange']),
             right_answer: 'grün',
         },
         {
             picture: 'images/Color-test/Colortest17.png',
             question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
+			choice_options: _.shuffle(['blau', 'grün', 'gelb', 'orange']),
             right_answer: 'gelb',
-        },
-        {
-            picture: 'images/Color-test/Colortest18.png',
-            question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
-            right_answer: 'lila',
         },
         {
             picture: 'images/Color-test/Colortest19.png',
             question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
+			choice_options: _.shuffle(['blau', 'grün', 'gelb', 'orange']),
             right_answer: 'orange',
-        },
-        {
-            picture: 'images/Color-test/Colortest20.png',
-            question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
-            right_answer: 'weinrot',
         },
         {
             picture: 'images/Color-test/Colortest21.png',
             question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
+			choice_options: _.shuffle(['blau', 'grün', 'gelb', 'orange']),
             right_answer: 'orange',
-        },
-        {
-            picture: 'images/Color-test/Colortest22.png',
-            question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
-            right_answer: 'lila',
         },
         {
             picture: 'images/Color-test/Colortest23.png',
             question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
+			choice_options: _.shuffle(['blau', 'grün', 'gelb', 'orange']),
             right_answer: 'grün',
         },
         {
             picture: 'images/Color-test/Colortest24.png',
             question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
+			choice_options: _.shuffle(['blau', 'grün', 'gelb', 'orange']),
             right_answer: 'gelb',
         },
         {
             picture: 'images/Color-test/Colortest25.png',
             question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
+			choice_options: _.shuffle(['blau', 'grün', 'gelb', 'orange']),
             right_answer: 'blau',
-        },
-        {
-            picture: 'images/Color-test/Colortest26.png',
-            question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
-            right_answer: 'rosa',
-        },
-        {
-            picture: 'images/Color-test/Colortest27.png',
-            question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
-            right_answer: 'rot',
-        },
-        {
-            picture: 'images/Color-test/Colortest28.png',
-            question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
-            right_answer: 'weinrot',
         },
         {
             picture: 'images/Color-test/Colortest29.png',
             question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
+			choice_options: _.shuffle(['blau', 'grün', 'gelb', 'orange']),
             right_answer: 'blau',
-        },
-        {
-            picture: 'images/Color-test/Colortest30.png',
-            question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
-            right_answer: 'rosa',
         },
         {
             picture: 'images/Color-test/Colortest31.png',
             question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
+			choice_options: _.shuffle(['blau', 'grün', 'gelb', 'orange']),
             right_answer: 'gelb',
-        },
-        {
-            picture: 'images/Color-test/Colortest32.png',
-            question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
-            right_answer: 'weinrot',
         },
         {
             picture: 'images/Color-test/Colortest33.png',
             question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
+			choice_options: _.shuffle(['blau', 'grün', 'gelb', 'orange']),
             right_answer: 'orange',
-        },
-        {
-            picture: 'images/Color-test/Colortest34.png',
-            question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
-            right_answer: 'lila',
         },
         {
             picture: 'images/Color-test/Colortest35.png',
             question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
+			choice_options: _.shuffle(['blau', 'grün', 'gelb', 'orange']),
             right_answer: 'grün',
-        },
-        {
-            picture: 'images/Color-test/Colortest36.png',
-            question: 'Welche Farbe hat die Form?',
-			choice_options: _.shuffle(['blau', 'rosa', 'rot', 'grün', 'gelb', 'lila', 'orange', 'weinrot']),
-            right_answer: 'rot',
         }
     ]
 }
@@ -164,8 +94,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Kreise', 'Dreiecke'],
+            choice_options_3: ['grün', 'gelb']
         },
         {
             picture: 'images/Production/Test-1/1-homogeneous-1-heterogeneous/1b.png',
@@ -175,8 +105,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Quadrate', 'Dreiecke'],
+            choice_options_3: ['grün', 'gelb']
         },
         {
             picture: 'images/Production/Test-1/1-homogeneous-1-heterogeneous/1c.png',
@@ -186,8 +116,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Kreise', 'Dreiecke'],
+            choice_options_3: ['orange', 'gelb']
         },
         {
             picture: 'images/Production/Test-1/1-homogeneous-1-heterogeneous/2a.png',
@@ -197,8 +127,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Quadrate', 'Kreise'],
+            choice_options_3: ['blau', 'orange']
         },
         {
             picture: 'images/Production/Test-1/1-homogeneous-1-heterogeneous/2b.png',
@@ -208,8 +138,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Quadrate', 'Kreise'],
+            choice_options_3: ['grün', 'orange']
         },
         {
             picture: 'images/Production/Test-1/1-homogeneous-1-heterogeneous/2c.png',
@@ -219,8 +149,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Quadrate', 'Dreiecke'],
+            choice_options_3: ['grün', 'gelb']
         },
         {
             picture: 'images/Production/Test-1/1-homogeneous-1-heterogeneous/3a.png',
@@ -230,8 +160,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Kreise', 'Dreiecke'],
+            choice_options_3: ['blau', 'gelb']
         },
         {
             picture: 'images/Production/Test-1/1-homogeneous-1-heterogeneous/3b.png',
@@ -241,8 +171,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Quadrate', 'Kreise'],
+            choice_options_3: ['grün', 'orange']
         },
         {
             picture: 'images/Production/Test-1/1-homogeneous-1-heterogeneous/3c.png',
@@ -252,8 +182,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Quadrate', 'Dreiecke'],
+            choice_options_3: ['grün', 'orange']
         },
         // 2 homogeneous
         {
@@ -264,8 +194,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Quadrate', 'Kreise'],
+            choice_options_3: ['blau', 'gelb']
         },
         {
             picture: 'images/Production/Test-1/2-homogeneous/1b.png',
@@ -275,8 +205,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Quadrate', 'Kreise'],
+            choice_options_3: ['blau', 'gelb']
         },
         {
             picture: 'images/Production/Test-1/2-homogeneous/1c.png',
@@ -286,8 +216,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Quadrate', 'Dreiecke'],
+            choice_options_3: ['grün', 'orange']
         },
         {
             picture: 'images/Production/Test-1/2-homogeneous/2a.png',
@@ -297,8 +227,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Quadrate', 'Dreiecke'],
+            choice_options_3: ['grün', 'gelb']
         },
         {
             picture: 'images/Production/Test-1/2-homogeneous/2b.png',
@@ -308,8 +238,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Kreise', 'Dreiecke'],
+            choice_options_3: ['orange', 'gelb']
         },
         {
             picture: 'images/Production/Test-1/2-homogeneous/2c.png',
@@ -319,8 +249,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Kreise', 'Dreiecke'],
+            choice_options_3: ['grün', 'gelb']
         },
         {
             picture: 'images/Production/Test-1/2-homogeneous/3a.png',
@@ -330,8 +260,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Quadrate', 'Kreise'],
+            choice_options_3: ['blau', 'gelb']
         },
         {
             picture: 'images/Production/Test-1/2-homogeneous/3b.png',
@@ -341,8 +271,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Quadrate', 'Kreise'],
+            choice_options_3: ['grün', 'orange']
         },
         {
             picture: 'images/Production/Test-1/2-homogeneous/3c.png',
@@ -352,8 +282,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Quadrate', 'Dreiecke'],
+            choice_options_3: ['orange', 'gelb']
         },
         // 2 heterogenous
         {
@@ -364,8 +294,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Kreise', 'Dreiecke'],
+            choice_options_3: ['grün', 'orange']
         },
         {
             picture: 'images/Production/Test-1/2-heterogeneous/1b.png',
@@ -375,8 +305,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Kreise', 'Dreiecke'],
+            choice_options_3: ['grün', 'gelb']
         },
         {
             picture: 'images/Production/Test-1/2-heterogeneous/1c.png',
@@ -386,8 +316,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Quadrate', 'Kreise'],
+            choice_options_3: ['blau', 'orange']
         },
         {
             picture: 'images/Production/Test-1/2-heterogeneous/2a.png',
@@ -397,8 +327,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Quadrate', 'Dreiecke'],
+            choice_options_3: ['orange', 'gelb']
         },
         {
             picture: 'images/Production/Test-1/2-heterogeneous/2b.png',
@@ -408,8 +338,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Quadrate', 'Kreise'],
+            choice_options_3: ['orange', 'gelb']
         },
         {
             picture: 'images/Production/Test-1/2-heterogeneous/2c.png',
@@ -419,8 +349,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Kreise', 'Dreiecke'],
+            choice_options_3: ['orange', 'gelb']
         },
         {
             picture: 'images/Production/Test-1/2-heterogeneous/3a.png',
@@ -431,7 +361,7 @@ const part_two_trial_info = {
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
             choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_3: ['blau', 'orange']
         },
         {
             picture: 'images/Production/Test-1/2-heterogeneous/3b.png',
@@ -441,8 +371,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Quadrate', 'Dreiecke'],
+            choice_options_3: ['blau', 'grün']
         },
         {
             picture: 'images/Production/Test-1/2-heterogeneous/3c.png',
@@ -452,8 +382,8 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
-            choice_options_3: ['blau', 'grün', 'orange', 'gelb']
+            choice_options_2: ['Quadrate', 'Kreise'],
+            choice_options_3: ['blau', 'gelb']
         },
         // Type B
         // 1 homogeneous X 1 heterogeneous
@@ -465,7 +395,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -476,7 +406,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Dreiecke'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -487,7 +417,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -498,7 +428,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Dreiecke'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -509,7 +439,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -520,7 +450,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Dreiecke'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -531,7 +461,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -542,7 +472,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -553,7 +483,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Dreiecke'],
             choice_options_3: ['neben', 'in']
         },
         // 2 homogeneous
@@ -565,7 +495,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Dreiecke'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -576,7 +506,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -587,7 +517,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -598,7 +528,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -609,7 +539,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -620,7 +550,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -631,7 +561,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -642,7 +572,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Kreise', 'Dreiecke'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -653,7 +583,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
         // 2 heterogeneous
@@ -665,7 +595,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Dreiecke'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -676,7 +606,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -687,7 +617,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -698,7 +628,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -709,7 +639,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -720,7 +650,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -731,7 +661,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Dreiecke'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -742,7 +672,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
         {
@@ -753,7 +683,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['neben', 'in']
         },
 		// Type C
@@ -766,7 +696,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Dreiecke'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -777,7 +707,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -788,7 +718,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -799,7 +729,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Dreiecke'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -810,7 +740,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -821,7 +751,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Kreise', 'Dreiecke'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -832,7 +762,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Kreise', 'Dreiecke'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -843,7 +773,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -854,7 +784,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['groß', 'klein']
         },
         // 2 homogeneous
@@ -866,7 +796,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -877,7 +807,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Dreiecke'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -888,7 +818,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Kreise', 'Dreiecke'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -899,7 +829,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -910,7 +840,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Dreiecke'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -921,7 +851,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -932,7 +862,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Dreiecke'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -943,7 +873,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Kreise', 'Dreiecke'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -954,7 +884,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Dreiecke'],
             choice_options_3: ['groß', 'klein']
         },
         // 2 heterogeneous
@@ -966,7 +896,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -977,7 +907,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -988,7 +918,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -999,7 +929,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Dreiecke'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -1010,7 +940,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Dreiecke'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -1021,7 +951,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Dreiecke'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -1032,7 +962,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Quadrate', 'Kreise'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -1043,7 +973,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Kreise', 'Dreiecke'],
             choice_options_3: ['groß', 'klein']
         },
         {
@@ -1054,7 +984,7 @@ const part_two_trial_info = {
             sentence_chunk_1: 'der',
             sentence_chunk_2: 'auf dem Bild sind',
             choice_options_1: ['Alle', 'Einige'],
-            choice_options_2: ['Quadrate', 'Kreise', 'Dreiecke'],
+            choice_options_2: ['Kreise', 'Dreiecke'],
             choice_options_3: ['groß', 'klein']
         }
     ]
@@ -1067,6 +997,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/AllFalse/1a.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1078,6 +1010,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/AllFalse/1b.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1089,6 +1023,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/AllFalse/2a.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1100,6 +1036,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/AllFalse/2b.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1111,6 +1049,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/AllFalse/3a.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1122,6 +1062,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/AllFalse/3b.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1133,6 +1075,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!',
 			picture: 'images/SPR/Test-1/AllFalse/4a.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1144,6 +1088,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/AllFalse/4b.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1156,6 +1102,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedAll/1a.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1167,6 +1115,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!',  
 			picture: 'images/SPR/Test-1/BiasedAll/1b.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1178,6 +1128,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedAll/2a.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1189,6 +1141,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedAll/2b.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1200,6 +1154,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedAll/3a.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1211,6 +1167,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedAll/3b.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1222,6 +1180,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedAll/4a.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1233,6 +1193,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedAll/4b.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1245,6 +1207,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedSome/1a.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1256,6 +1220,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedSome/1b.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1267,6 +1233,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedSome/2a.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1278,6 +1246,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedSome/2b.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1289,6 +1259,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedSome/3a.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1300,6 +1272,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedSome/3b.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1311,6 +1285,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedSome/4a.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1322,6 +1298,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/BiasedSome/4b.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1334,6 +1312,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/FalseSome/1a.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1345,6 +1325,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/FalseSome/1b.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1356,6 +1338,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/FalseSome/2a.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1367,6 +1351,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/FalseSome/2b.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1378,6 +1364,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/FalseSome/3a.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1389,6 +1377,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/FalseSome/3b.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1400,6 +1390,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/FalseSome/4a.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1411,6 +1403,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/FalseSome/4b.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1423,6 +1417,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedAll/1a.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1434,6 +1430,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedAll/1b.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1445,6 +1443,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedAll/2a.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1456,6 +1456,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedAll/2b.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1467,6 +1469,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedAll/3a.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1478,6 +1482,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedAll/3b.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1489,6 +1495,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedAll/4a.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1500,6 +1508,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedAll/4b.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1512,6 +1522,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedSome/1a.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1523,6 +1535,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedSome/1b.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1534,6 +1548,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedSome/2a.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1545,6 +1561,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedSome/2b.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1556,6 +1574,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedSome/3a.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1567,6 +1587,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedSome/3b.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1578,6 +1600,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedSome/4a.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1589,6 +1613,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnbiasedSome/4b.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1601,6 +1627,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnderspecifiedSome/1a.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1612,6 +1640,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnderspecifiedSome/1b.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1623,6 +1653,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnderspecifiedSome/2a.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1634,6 +1666,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnderspecifiedSome/2b.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1645,6 +1679,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnderspecifiedSome/3a.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1656,6 +1692,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnderspecifiedSome/3b.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1667,6 +1705,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnderspecifiedSome/4a.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1678,6 +1718,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
 			picture: 'images/SPR/Test-1/UnderspecifiedSome/4b.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1691,6 +1733,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/AllFalse/1a.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1702,6 +1746,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/AllFalse/1b.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1713,6 +1759,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/AllFalse/2a.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1724,6 +1772,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/AllFalse/2b.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1735,6 +1785,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/AllFalse/3a.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1746,6 +1798,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/AllFalse/3b.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1757,6 +1811,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/AllFalse/4a.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1768,6 +1824,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/AllFalse/4b.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1780,6 +1838,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedAll/1a.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1791,6 +1851,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedAll/1b.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1802,6 +1864,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedAll/2a.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1813,6 +1877,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedAll/2b.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1824,6 +1890,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedAll/3a.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1835,6 +1903,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedAll/3b.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1846,6 +1916,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedAll/4a.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1857,6 +1929,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedAll/4b.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1869,6 +1943,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedSome/1a.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1880,6 +1956,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedSome/1b.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1891,6 +1969,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedSome/2a.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1902,6 +1982,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedSome/2b.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1913,6 +1995,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedSome/3a.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1924,6 +2008,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedSome/3b.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1935,6 +2021,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedSome/4a.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1946,6 +2034,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/BiasedSome/4b.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1958,6 +2048,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/FalseSome/1a.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1968,6 +2060,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/FalseSome/1b.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1979,6 +2073,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/FalseSome/2a.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -1989,6 +2085,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/FalseSome/2b.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2000,6 +2098,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/FalseSome/3a.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2010,6 +2110,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/FalseSome/3b.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2021,6 +2123,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/FalseSome/4a.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2031,6 +2135,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/FalseSome/4b.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2043,6 +2149,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedAll/1a.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2054,6 +2162,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedAll/1b.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2065,6 +2175,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedAll/2a.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2076,6 +2188,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedAll/2b.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2087,6 +2201,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedAll/3a.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2098,6 +2214,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedAll/3b.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2109,6 +2227,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedAll/4a.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2120,6 +2240,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedAll/4b.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2132,6 +2254,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedSome/1a.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2143,6 +2267,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedSome/1b.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2154,6 +2280,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedSome/2a.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2165,6 +2293,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedSome/2b.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2176,6 +2306,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedSome/3a.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2187,6 +2319,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedSome/3b.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2198,6 +2332,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedSome/4a.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2209,6 +2345,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnbiasedSome/4b.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2221,6 +2359,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnderspecifiedSome/1a.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2232,6 +2372,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnderspecifiedSome/1b.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 1,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2243,6 +2385,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnderspecifiedSome/2a.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2254,6 +2398,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnderspecifiedSome/2b.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 2,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2265,6 +2411,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnderspecifiedSome/3a.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2276,6 +2424,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnderspecifiedSome/3b.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 3,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2287,6 +2437,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnderspecifiedSome/4a.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2298,6 +2450,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
 			picture: 'images/SPR/Test-2/UnderspecifiedSome/4b.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2311,6 +2465,8 @@ const part_three_trial_info = {
         { 
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/AllFalse/1a.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2322,6 +2478,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/AllFalse/1b.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2333,6 +2491,8 @@ const part_three_trial_info = {
          {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/AllFalse/2a.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2344,6 +2504,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/AllFalse/2b.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2355,6 +2517,8 @@ const part_three_trial_info = {
          {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/AllFalse/3a.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2366,6 +2530,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/AllFalse/3b.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2377,6 +2543,8 @@ const part_three_trial_info = {
          {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/AllFalse/4a.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2388,6 +2556,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/AllFalse/4b.png',
+            quantifier: 'all',
+            condition: 'false',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2400,6 +2570,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedAll/1a.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2411,6 +2583,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedAll/1b.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2422,6 +2596,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedAll/2a.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2433,6 +2609,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedAll/2b.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2444,6 +2622,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedAll/3a.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2455,6 +2635,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedAll/3b.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2466,6 +2648,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedAll/4a.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2477,6 +2661,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedAll/4b.png',
+            quantifier: 'all',
+            condition: 'biased',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2489,6 +2675,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedSome/1a.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2500,6 +2688,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedSome/1b.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2511,6 +2701,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedSome/2a.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2522,6 +2714,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedSome/2b.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2533,6 +2727,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedSome/3a.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2544,6 +2740,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedSome/3b.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2555,6 +2753,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedSome/4a.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2566,6 +2766,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/BiasedSome/4b.png',
+            quantifier: 'some',
+            condition: 'biased',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2578,6 +2780,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/FalseSome/1a.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2589,6 +2793,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/FalseSome/1b.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2600,6 +2806,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/FalseSome/2a.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2611,6 +2819,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/FalseSome/2b.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2622,6 +2832,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/FalseSome/3a.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2633,6 +2845,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/FalseSome/3b.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2644,6 +2858,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/FalseSome/4a.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2655,6 +2871,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/FalseSome/4b.png',
+            quantifier: 'some',
+            condition: 'false',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2667,6 +2885,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedAll/1a.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2678,6 +2898,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedAll/1b.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2689,6 +2911,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedAll/2a.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2700,6 +2924,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedAll/2b.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2711,6 +2937,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedAll/3a.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2722,6 +2950,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedAll/3b.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2733,6 +2963,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedAll/4a.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2744,6 +2976,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedAll/4b.png',
+            quantifier: 'all',
+            condition: 'unbiased',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2756,6 +2990,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedSome/1a.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2767,6 +3003,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedSome/1b.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2778,6 +3016,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedSome/2a.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2789,6 +3029,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedSome/2b.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2800,6 +3042,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedSome/3a.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2811,6 +3055,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedSome/3b.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2822,6 +3068,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedSome/4a.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2833,6 +3081,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnbiasedSome/4b.png',
+            quantifier: 'some',
+            condition: 'unbiased',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2845,6 +3095,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnderspecifiedSome/1a.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2856,6 +3108,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnderspecifiedSome/1b.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 1,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2867,6 +3121,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnderspecifiedSome/2a.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2878,6 +3134,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnderspecifiedSome/2b.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 2,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2889,6 +3147,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnderspecifiedSome/3a.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2900,6 +3160,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnderspecifiedSome/3b.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 3,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2911,6 +3173,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnderspecifiedSome/4a.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
@@ -2922,6 +3186,8 @@ const part_three_trial_info = {
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
 			picture: 'images/SPR/Test-3/UnderspecifiedSome/4b.png',
+            quantifier: 'some',
+            condition: 'underspecified',
 			listNumber: 4,
 			picture_type: 'C',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',

@@ -47,15 +47,12 @@ const multiple_dropdown = function(config) {
                     <option disabled selected></option>
                     <option value=${answer_option_2_1}>${answer_option_2_1}</option>
                     <option value=${answer_option_2_2}>${answer_option_2_2}</option>
-                    <option value=${answer_option_2_3}>${answer_option_2_3}</option>
                 </select>
                 ${sentence_chunk_2}
                 <select id='response3' name='answer_3'>
                     <option disabled selected></option>
                     <option value=${answer_option_3_1}>${answer_option_3_1}</option>
                     <option value=${answer_option_3_2}>${answer_option_3_2}</option>
-                    <option value=${answer_option_3_3}>${answer_option_3_3}</option>
-                    <option value=${answer_option_3_4}>${answer_option_3_4}</option>
                 </select>
                 .
                 </p>
@@ -73,7 +70,6 @@ const multiple_dropdown = function(config) {
                     <option disabled selected></option>
                     <option value=${answer_option_2_1}>${answer_option_2_1}</option>
                     <option value=${answer_option_2_2}>${answer_option_2_2}</option>
-                    <option value=${answer_option_2_3}>${answer_option_2_3}</option>
                 </select>
                 ${sentence_chunk_2}
                 <select id='response3' name='answer_3'>
@@ -97,7 +93,6 @@ const multiple_dropdown = function(config) {
                     <option disabled selected></option>
                     <option value=${answer_option_2_1}>${answer_option_2_1}</option>
                     <option value=${answer_option_2_2}>${answer_option_2_2}</option>
-                    <option value=${answer_option_2_3}>${answer_option_2_3}</option>
                 </select>
                 ${sentence_chunk_2}
                 <select id='response3' name='answer_3'>
@@ -217,10 +212,6 @@ const dropdown_8_options = function(config) {
             const answer_option_2 = config.data[CT].choice_options[1];
             const answer_option_3 = config.data[CT].choice_options[2];
             const answer_option_4 = config.data[CT].choice_options[3];
-            const answer_option_5 = config.data[CT].choice_options[4];
-            const answer_option_6 = config.data[CT].choice_options[5];
-            const answer_option_7 = config.data[CT].choice_options[6];
-            const answer_option_8 = config.data[CT].choice_options[7];
             const viewTemplate = `<div class='babe-view'>
                 <div class='babe-view-stimulus-container'>
                     <div class='babe-view-stimulus babe-nodisplay'></div>
@@ -235,10 +226,6 @@ const dropdown_8_options = function(config) {
                     <option value=${answer_option_2}>${answer_option_2}</option>
                     <option value=${answer_option_3}>${answer_option_3}</option>
                     <option value=${answer_option_4}>${answer_option_4}</option>
-                    <option value=${answer_option_5}>${answer_option_5}</option>
-                    <option value=${answer_option_6}>${answer_option_6}</option>
-                    <option value=${answer_option_7}>${answer_option_7}</option>
-                    <option value=${answer_option_8}>${answer_option_8}</option>
                 </select>
                 </p>
                 <button id='next' class='babe-view-button babe-nodisplay'>Weiter</button>
