@@ -131,16 +131,17 @@ const thanks = babeViews.view_generator("thanks", {
 });*/
 
 const task_one = dropdown_8_options ({
-    trials: 1,
+    trials: 2,
     // trials: part_one_trial_info.dropdown_8_options.length,
-    name: 'task_one',
+    name: 'task_one_1',
     trial_type: 'dropdown_8_options',
     data: _.shuffle(part_one_trial_info.dropdown_8_options)
 });
 
 const task_three_1 = babeViews.view_generator("self_paced_reading_rating_scale", {
     trials: 2,
-    name: 'task_three',
+    // trials: 42,
+    name: 'task_three_1',
     trial_type: 'rating_scale',
     data: _.shuffle(_.filter(part_three_trial_info.rating_scale,
                              function(t) {return t.listNumber == spr_lists[0];}))
@@ -151,7 +152,8 @@ const task_three_1 = babeViews.view_generator("self_paced_reading_rating_scale",
 
 const task_three_2 = babeViews.view_generator("self_paced_reading_rating_scale", {
     trials: 2,
-    name: 'task_three',
+    // trials: 42,
+    name: 'task_three_2',
     trial_type: 'rating_scale',
     data: _.shuffle(_.filter(part_three_trial_info.rating_scale,
                              function(t) {return t.listNumber == spr_lists[1];}))
@@ -193,24 +195,25 @@ const pause_4 = babeViews.view_generator("instructions", {
 });
 
 const sentence_completion_1 = multiple_dropdown ({
+    // trials: 2,
     trials: 2,
-    name: 'sentence_completion',
+    name: 'sentence_completion_1',
     trial_type: 'dropdown_sentence_completion',
     data: _.shuffle(_.filter(part_two_trial_info.multi_dropdown,
                              function(t) {return t.listNumber == sentence_completion_lists[0];}))
 });
 
 const sentence_completion_2 = multiple_dropdown ({
-    trials: 9,
-    name: 'sentence_completion',
+    trials: 2,
+    name: 'sentence_completion_2',
     trial_type: 'dropdown_sentence_completion',
     data: _.shuffle(_.filter(part_two_trial_info.multi_dropdown,
                              function(t) {return t.listNumber == sentence_completion_lists[1];}))
 });
 
 const sentence_completion_3 = multiple_dropdown ({
-    trials: 9,
-    name: 'sentence_completion',
+    trials: 2,
+    name: 'sentence_completion_3',
     trial_type: 'dropdown_sentence_completion',
     data: _.shuffle(_.filter(part_two_trial_info.multi_dropdown,
                              function(t) {return t.listNumber == sentence_completion_lists[2];}))

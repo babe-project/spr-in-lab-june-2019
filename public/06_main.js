@@ -21,10 +21,10 @@ $("document").ready(function() {
             instructionsTask2,
             sentence_completion_1,
             pause_1,
-            /*sentence_completion_2,
+            sentence_completion_2,
             pause_2,
             sentence_completion_3,
-            pause_3,*/
+            pause_3,
             instructionsTask3,
             task_three_1,
             pause_4,
@@ -48,14 +48,15 @@ $("document").ready(function() {
         progress_bar: {
             in: [
                 // list the view-names of the views for which you want a progress bar
-                "task_one",
+                "task_one_1",
                 "sentence_completion_1",
                 "sentence_completion_2",
                 "sentence_completion_3",
-                "task_three"
+                "task_three_1",
+                "task_three_2"
             ],
              // Possible styles are "default", "separate" and "chunks"
-            style: "separate",
+            style: "default",
             width: 100
         }
     });
