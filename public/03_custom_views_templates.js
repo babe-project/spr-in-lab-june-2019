@@ -199,8 +199,8 @@ const multiple_dropdown = function(config) {
 };
 
 
-const dropdown_8_options = function(config) {
-    const dropdown_8_options_function = {
+const color_test_dropdown = function(config) {
+    const color_test_dropdown_function = {
         name: config.name,
         title: babeUtils.view.setter.title(config.title, ""),
         render: function(CT, babe) {
@@ -288,7 +288,7 @@ const dropdown_8_options = function(config) {
                     stim_duration: config.stim_duration,
                     data: config.data[CT],
                     evts: config.hook,
-                    view: "dropdown_8_options"
+                    view: "color_test_dropdown"
                 },
                 enableResponse
             );
@@ -297,7 +297,7 @@ const dropdown_8_options = function(config) {
         trials: config.trials
     };
 
-    return dropdown_8_options_function;
+    return color_test_dropdown_function;
 };
 
 

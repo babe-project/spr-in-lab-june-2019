@@ -18,17 +18,25 @@ $("document").ready(function() {
            intro,
             instructionsTask1,
             task_one,
-            instructionsTask2,
-            sentence_completion_1,
+            instructionsTask2_1,
+            practice_task_two,
+            instructionsTask2_2,
+            task_two_1,
             pause_1,
-            sentence_completion_2,
+            task_two_2,
             pause_2,
-            sentence_completion_3,
+            task_two_3,
             pause_3,
-            instructionsTask3,
+            instructionsTask3_1,
+            practice_task_three,
+            instructionsTask3_2,
             task_three_1,
             pause_4,
             task_three_2,
+            pause_5,
+            task_three_3,
+            pause_6,
+            task_three_4,
             instructionsPostTest,
             post_test,
             thanks,
@@ -41,7 +49,7 @@ $("document").ready(function() {
             // "debug" and "directLink"
             // As well as "MTurk", "MTurkSandbox" and "Prolific"
             deployMethod: "debug",
-            contact_email: "YOUREMAIL@wherelifeisgreat.you",
+            contact_email: "vini.macuch@gmail.com",
             prolificURL: "https://app.prolific.ac/submissions/complete?cc=SAMPLE1234"
         },
         // Here, you can specify how the progress bar should look like
@@ -49,11 +57,13 @@ $("document").ready(function() {
             in: [
                 // list the view-names of the views for which you want a progress bar
                 "task_one_1",
-                "sentence_completion_1",
-                "sentence_completion_2",
-                "sentence_completion_3",
+                "task_two_1",
+                "task_two_2",
+                "task_two_3",
                 "task_three_1",
-                "task_three_2"
+                "task_three_2",
+                "task_three_3",
+                "task_three_4"
             ],
              // Possible styles are "default", "separate" and "chunks"
             style: "default",

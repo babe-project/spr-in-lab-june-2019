@@ -6,7 +6,7 @@ const sentence_completion_lists = _.shuffle([1,2,3]);
 const spr_lists = _.shuffle([1,2,3,4]);
 
 const part_one_trial_info = {
-    dropdown_8_options: [
+    color_test_dropdown: [
         {
             picture: 'images/Color-test/Colortest13.png',
             question: 'Welche Farbe hat die Form?',
@@ -79,6 +79,50 @@ const part_one_trial_info = {
 			choice_options: _.shuffle(['blau', 'grün', 'gelb', 'orange']),
             right_answer: 'grün',
         }
+    ]
+}
+
+const practice_part_two_trial_info = {
+    multi_dropdown: [
+        // Type A
+        // 2 homogeneous
+        {
+            picture: 'images/Production/Test-1/2-homogeneous/1a.png',
+            listNumber: 1,
+            picture_type: 'A', 
+			display: '2-homo',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Kreise'],
+            choice_options_3: ['blau', 'gelb']
+        },
+        // Type B
+        // 2 heterogeneous
+        {
+            picture: 'images/Production/Test-2/2-heterogeneous/1a.png',
+            listNumber: 1,
+            picture_type: 'B', 
+			display: '2-hetero',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Dreiecke'],
+            choice_options_3: ['neben', 'in']
+        },
+		// Type C
+        // 1 homogeneous X 1 heterogeneous
+        {
+            picture: 'images/Production/Test-3/1-homogeneous-1-heterogeneous/1a.png',
+            listNumber: 1,
+            picture_type: 'C', 
+			display: '1-homo-1-hetero',
+            sentence_chunk_1: 'der',
+            sentence_chunk_2: 'auf dem Bild sind',
+            choice_options_1: ['Alle', 'Einige'],
+            choice_options_2: ['Quadrate', 'Dreiecke'],
+            choice_options_3: ['groß', 'klein']
+        },
     ]
 }
 
@@ -990,6 +1034,54 @@ const part_two_trial_info = {
     ]
 }
 
+const practice_part_three_trial_info = {
+    rating_scale: [
+        // Type A
+        // All Unbiased
+        {
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Farbe der Gegenstände!', 
+			picture: 'images/SPR/Test-1/UnbiasedAll/1a.png',
+            quantifier: 'all',
+            condition: 'unbiased',
+			listNumber: 1,
+			picture_type: 'A',
+            question: 'Wie zutreffend beschreibt der Satz das Bild?',
+            sentence: 'Alle | der | Quadrate | auf | dem | Bild | sind | blau.',
+            optionLeft: 'Überhaupt nicht zutreffend',
+            optionRight: 'Vollkommen zutreffend', 
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
+        },
+        // Some Biased
+        {
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
+			picture: 'images/SPR/Test-2/BiasedSome/1a.png',
+            quantifier: 'some',
+            condition: 'biased',
+			listNumber: 1,
+			picture_type: 'B',
+            question: 'Wie zutreffend beschreibt der Satz das Bild?',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | neben | der | Box.',
+            optionLeft: 'Überhaupt nicht zutreffend',
+            optionRight: 'Vollkommen zutreffend',
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
+        },
+        // Some Unbiased
+        {
+            QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Größe der Gegenstände!', 
+			picture: 'images/SPR/Test-3/UnbiasedSome/1a.png',
+            quantifier: 'some',
+            condition: 'unbiased',
+			listNumber: 1,
+			picture_type: 'C',
+            question: 'Wie zutreffend beschreibt der Satz das Bild?',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | klein.',
+            optionLeft: 'Überhaupt nicht zutreffend',
+            optionRight: 'Vollkommen zutreffend',
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
+        }
+    ]
+}
+
 const part_three_trial_info = {
     rating_scale: [
         // Type A
@@ -1212,7 +1304,7 @@ const part_three_trial_info = {
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | blau.',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
             help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
@@ -1225,7 +1317,7 @@ const part_three_trial_info = {
 			listNumber: 1,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | grün.',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
             help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
@@ -1238,7 +1330,7 @@ const part_three_trial_info = {
 			listNumber: 2,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | grün.',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | orange.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
             help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
@@ -1264,7 +1356,7 @@ const part_three_trial_info = {
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | orange.',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
             help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
@@ -1277,7 +1369,7 @@ const part_three_trial_info = {
 			listNumber: 3,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | grün.',
+            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | orange.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
             help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
@@ -1290,7 +1382,7 @@ const part_three_trial_info = {
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | grün.',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | blau.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
             help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
@@ -1303,7 +1395,7 @@ const part_three_trial_info = {
 			listNumber: 4,
 			picture_type: 'A',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | gelb.',
+            sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | grün.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend', 
             help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
@@ -2055,7 +2147,8 @@ const part_three_trial_info = {
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
             sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
-            optionRight: 'Vollkommen zutreffend'
+            optionRight: 'Vollkommen zutreffend',
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
@@ -2080,7 +2173,8 @@ const part_three_trial_info = {
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
             sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
-            optionRight: 'Vollkommen zutreffend'
+            optionRight: 'Vollkommen zutreffend',
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
@@ -2105,7 +2199,8 @@ const part_three_trial_info = {
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
             sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
-            optionRight: 'Vollkommen zutreffend'
+            optionRight: 'Vollkommen zutreffend',
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
@@ -2130,7 +2225,8 @@ const part_three_trial_info = {
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
             sentence: 'Einige | der | Dreiecke | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
-            optionRight: 'Vollkommen zutreffend'
+            optionRight: 'Vollkommen zutreffend',
+            help_text: 'Drücke die Leertaste, um den Satz zu lesen.'
         },
         {
             QUD: 'Präg Dir das Bild gut ein und <br> achte auf die Position der Gegenstände!', 
@@ -2442,7 +2538,7 @@ const part_three_trial_info = {
 			listNumber: 4,
 			picture_type: 'B',
             question: 'Wie zutreffend beschreibt der Satz das Bild?',
-            sentence: 'Einige | der | Kreise | auf | dem | Bild | sind | in | der | Box.',
+            sentence: 'Einige | der | Quadrate | auf | dem | Bild | sind | in | der | Box.',
             optionLeft: 'Überhaupt nicht zutreffend',
             optionRight: 'Vollkommen zutreffend',
             help_text: 'Drücke die Leertaste, um den Satz zu lesen.'

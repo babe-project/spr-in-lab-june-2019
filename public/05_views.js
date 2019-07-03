@@ -24,7 +24,7 @@ const intro = babeViews.view_generator("intro",{
     name: 'intro',
     title: 'Herzlich Willkommen',
     // If you use JavaScripts Template String `I am a Template String`, you can use HTML <></> and javascript ${} inside
-    text: 'Vielen Dank, dass Du an unserem Experiment teilnimmst. Im Folgenden werden wir Dir kurz erklären, wie das Experiment abläuft. Bitte klicke dazu auf den "Start"-Knopf.',
+    text: 'Vielen Dank, dass Du an unserem Experiment teilnimmst. Im Folgenden werden wir Dir kurz erklären, wie das Experiment abläuft. Bitte klicke dazu auf den "Start"-Button.',
    buttonText: 'Start'
 });
 
@@ -37,20 +37,36 @@ const instructionsTask1 = babeViews.view_generator("instructions",{
     buttonText: 'Weiter'
 });
 
-const instructionsTask2 = babeViews.view_generator("instructions",{
+const instructionsTask2_1 = babeViews.view_generator("instructions",{
     trials: 1,
-    name: 'instructions_task_two',
+    name: 'instructions_task_two_1',
     title: 'Anleitung - Teil II',
-    text:  'In diesem Teil des Experiments sollst du die Bilder, die du auf dem Bildschirm siehst, beschreiben, indem du Lücken in unvollständigen Sätzen ausfüllst.',
-    buttonText: 'Weiter'
+    text:  'In diesem Teil des Experiments sollst du die Bilder, die du auf dem Bildschirm siehst, beschreiben, indem du Lücken in unvollständigen Sätzen ausfüllst. Es folgen einige Übungsdurchgänge.',
+    buttonText: 'Weiter zu den Übungsdurchgängen'
 });
 
-const instructionsTask3 = babeViews.view_generator("instructions",{
+const instructionsTask2_2 = babeViews.view_generator("instructions",{
+    trials: 1,
+    name: 'instructions_task_two_2',
+    title: 'Anleitung - Teil II',
+    text:  'Das waren die Übungsdurchgänge. Nun beginnen wir mit dem Experiment. Um zu Beginnen klicke bitte auf den Button „Experiment starten“',
+    buttonText: 'Experiment starten'
+});
+
+const instructionsTask3_1 = babeViews.view_generator("instructions",{
     trials: 1,
     name: 'instructions_task_three',
     title: 'Anleitung - Teil III',
-    text:  'Im letzten Teil des Experiments sollst Du dir nun Beschreibungen der Bilder, die du vorher gesehen hast, durchlesen, und beurteilen, wie gut diese Beschreibungen sind. In jedem Durchgang wird Dir gesagt, auf welchen Aspekt des Bildes Du achten sollst, entweder die Größe, die Farbe, oder die Position der Formen. Du kannst die Beschreibung von 1, überhaupt nicht zutreffend, bis 7, vollkommen zutreffend, bewerten. <br> <br> Vorsicht: die Sätze, die angezeigt werden, werden nur Stück für Stück angezeigt. <b>Drücke auf die Leertaste, um das nächste Wort anzeigen zu lassen.</a> Versuche, jedes Wort zu lesen, und schon während des Lesens zu beurteilen, ob der Satz eine angemessene Beschreibung des Bildes ist bzw. werden könnte.',
-    buttonText: 'Weiter'
+    text:  'Im letzten Teil des Experiments sollst Du dir nun Beschreibungen der Bilder, die du vorher gesehen hast, durchlesen, und beurteilen, wie gut diese Beschreibungen sind. In jedem Durchgang wird Dir gesagt, auf welchen Aspekt des Bildes Du achten sollst, entweder die Größe, die Farbe, oder die Position der Formen. Du kannst die Beschreibung von 1, überhaupt nicht zutreffend, bis 7, vollkommen zutreffend, bewerten. <br> <br> Vorsicht: die Sätze, die angezeigt werden, werden nur Stück für Stück angezeigt. <b>Drücke auf die Leertaste, um das nächste Wort anzeigen zu lassen.</a> Versuche, jedes Wort zu lesen, und schon während des Lesens zu beurteilen, ob der Satz eine angemessene Beschreibung des Bildes ist bzw. werden könnte. Es folgen einige Übungsdurchgänge.',
+    buttonText: 'Weiter zu den Übungsdurchgängen'
+});
+
+const instructionsTask3_2 = babeViews.view_generator("instructions",{
+    trials: 1,
+    name: 'instructions_task_three_2',
+    title: 'Anleitung - Teil III',
+    text:  'Das waren die Übungsdurchgänge. Nun beginnen wir mit dem Experiment. Um zu Beginnen klicke bitte auf den Button „Experiment starten“',
+    buttonText: 'Experiment starten'
 });
 
 const instructionsPostTest = babeViews.view_generator("instructions",{
@@ -66,30 +82,28 @@ const instructionsPostTest = babeViews.view_generator("instructions",{
 const post_test = babeViews.view_generator("post_test",{
     trials: 1,
     name: 'post_test',
-    title: 'Additional information',
-    text: 'Answering the following questions is optional, but your answers will help us analyze our results.'
-
-    // You can change much of what appears here, e.g., to present it in a different language, as follows:
-    // buttonText: 'Weiter',
-    // age_question: 'Alter',
-    // gender_question: 'Geschlecht',
-    // gender_male: 'männlich',
-    // gender_female: 'weiblich',
-    // gender_other: 'divers',
-    // edu_question: 'Höchster Bildungsabschluss',
-    // edu_graduated_high_school: 'Abitur',
-    // edu_graduated_college: 'Hochschulabschluss',
-    // edu_higher_degree: 'Universitärer Abschluss',
-    // languages_question: 'Muttersprache',
-    // languages_more: '(in der Regel die Sprache, die Sie als Kind zu Hause gesprochen haben)',
-    // comments_question: 'Weitere Kommentare'
+    title: 'Weitere Angaben',
+    text: 'Die Beantwortung der folgenden Fragen ist optional, aber es kann bei der Auswertung hilfreich sein, damit wir Ihre Antowrten besser verstehen.',
+    buttonText: 'Weiter',
+    age_question: 'Alter',
+    gender_question: 'Geschlecht',
+    gender_male: 'männlich',
+    gender_female: 'weiblich',
+    gender_other: 'divers',
+    edu_question: 'Höchster Bildungsabschluss',
+    edu_graduated_high_school: 'Abitur',
+    edu_graduated_college: 'Hochschulabschluss',
+    edu_higher_degree: 'Universitärer Abschluss',
+    languages_question: 'Muttersprache',
+    languages_more: '(in der Regel die Sprache, die Sie als Kind zu Hause gesprochen haben)',
+    comments_question: 'Weitere Kommentare'
 });
 
 // The 'thanks' view is crucial; never delete it; it submits the results!
 const thanks = babeViews.view_generator("thanks", {
     trials: 1,
     name: 'thanks',
-    title: 'Thank you for taking part in this experiment!',
+    title: 'Vielen Dank für Ihre Teilnahme!',
     prolificConfirmText: 'Press the button'
 });
 
@@ -130,16 +144,27 @@ const thanks = babeViews.view_generator("thanks", {
     // }
 });*/
 
-const task_one = dropdown_8_options ({
-    trials: 2,
+const task_one = color_test_dropdown ({
+    trials: 8,
     // trials: part_one_trial_info.dropdown_8_options.length,
     name: 'task_one_1',
-    trial_type: 'dropdown_8_options',
-    data: _.shuffle(part_one_trial_info.dropdown_8_options)
+    trial_type: 'color_test_dropdown',
+    data: _.shuffle(part_one_trial_info.color_test_dropdown)
 });
 
+const practice_task_three = babeViews.view_generator("self_paced_reading_rating_scale", {
+    trials: 3,
+    // trials: 42,
+    name: 'practice_task_three',
+    trial_type: 'rating_scale',
+    data: _.shuffle(practice_part_three_trial_info.rating_scale)
+  },
+  {
+    handle_response_function: handle_SPR_response_hide_picture
+  });
+
 const task_three_1 = babeViews.view_generator("self_paced_reading_rating_scale", {
-    trials: 2,
+    trials: 21,
     // trials: 42,
     name: 'task_three_1',
     trial_type: 'rating_scale',
@@ -151,12 +176,36 @@ const task_three_1 = babeViews.view_generator("self_paced_reading_rating_scale",
   });
 
 const task_three_2 = babeViews.view_generator("self_paced_reading_rating_scale", {
-    trials: 2,
+    trials: 21,
     // trials: 42,
     name: 'task_three_2',
     trial_type: 'rating_scale',
     data: _.shuffle(_.filter(part_three_trial_info.rating_scale,
                              function(t) {return t.listNumber == spr_lists[1];}))
+},
+    {
+   handle_response_function: handle_SPR_response_hide_picture
+  });
+
+const task_three_3 = babeViews.view_generator("self_paced_reading_rating_scale", {
+    trials: 21,
+    // trials: 42,
+    name: 'task_three_3',
+    trial_type: 'rating_scale',
+    data: _.shuffle(_.filter(part_three_trial_info.rating_scale,
+                             function(t) {return t.listNumber == spr_lists[2];}))
+},
+    {
+   handle_response_function: handle_SPR_response_hide_picture
+  });
+
+const task_three_4 = babeViews.view_generator("self_paced_reading_rating_scale", {
+    trials: 21,
+    // trials: 42,
+    name: 'task_three_4',
+    trial_type: 'rating_scale',
+    data: _.shuffle(_.filter(part_three_trial_info.rating_scale,
+                             function(t) {return t.listNumber == spr_lists[3];}))
 },
     {
    handle_response_function: handle_SPR_response_hide_picture
@@ -194,26 +243,50 @@ const pause_4 = babeViews.view_generator("instructions", {
     buttonText: 'Weiter'
 });
 
-const sentence_completion_1 = multiple_dropdown ({
+const pause_5 = babeViews.view_generator("instructions", {
+    trials: 1,
+    name: 'pause',
+    title: 'Pause',
+    text: 'Klicke auf den Button um das Experiment fortzusetzen.',
+    buttonText: 'Weiter'
+});
+
+const pause_6 = babeViews.view_generator("instructions", {
+    trials: 1,
+    name: 'pause',
+    title: 'Pause',
+    text: 'Klicke auf den Button um das Experiment fortzusetzen.',
+    buttonText: 'Weiter'
+});
+
+const practice_task_two = multiple_dropdown ({
     // trials: 2,
-    trials: 2,
-    name: 'sentence_completion_1',
+    trials: 3,
+    name: 'practice_task_two',
+    trial_type: 'dropdown_sentence_completion',
+    data: _.shuffle(practice_part_two_trial_info.multi_dropdown)
+});
+
+const task_two_1 = multiple_dropdown ({
+    // trials: 2,
+    trials: 9,
+    name: 'task_two_1',
     trial_type: 'dropdown_sentence_completion',
     data: _.shuffle(_.filter(part_two_trial_info.multi_dropdown,
                              function(t) {return t.listNumber == sentence_completion_lists[0];}))
 });
 
-const sentence_completion_2 = multiple_dropdown ({
-    trials: 2,
-    name: 'sentence_completion_2',
+const task_two_2 = multiple_dropdown ({
+    trials: 9,
+    name: 'task_two_2',
     trial_type: 'dropdown_sentence_completion',
     data: _.shuffle(_.filter(part_two_trial_info.multi_dropdown,
                              function(t) {return t.listNumber == sentence_completion_lists[1];}))
 });
 
-const sentence_completion_3 = multiple_dropdown ({
-    trials: 2,
-    name: 'sentence_completion_3',
+const task_two_3 = multiple_dropdown ({
+    trials: 9,
+    name: 'task_two_3',
     trial_type: 'dropdown_sentence_completion',
     data: _.shuffle(_.filter(part_two_trial_info.multi_dropdown,
                              function(t) {return t.listNumber == sentence_completion_lists[2];}))
