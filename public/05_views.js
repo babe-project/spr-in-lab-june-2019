@@ -145,7 +145,7 @@ const thanks = babeViews.view_generator("thanks", {
 });*/
 
 const task_one = color_test_dropdown ({
-    trials: 8,
+    trials: 1,
     // trials: part_one_trial_info.dropdown_8_options.length,
     name: 'task_one_1',
     trial_type: 'color_test_dropdown',
@@ -164,7 +164,7 @@ const practice_task_three = babeViews.view_generator("self_paced_reading_rating_
   });
 
 const task_three_1 = babeViews.view_generator("self_paced_reading_rating_scale", {
-    trials: 21,
+    trials: 1,
     // trials: 42,
     name: 'task_three_1',
     trial_type: 'rating_scale',
@@ -176,7 +176,7 @@ const task_three_1 = babeViews.view_generator("self_paced_reading_rating_scale",
   });
 
 const task_three_2 = babeViews.view_generator("self_paced_reading_rating_scale", {
-    trials: 21,
+    trials: 1,
     // trials: 42,
     name: 'task_three_2',
     trial_type: 'rating_scale',
@@ -188,7 +188,7 @@ const task_three_2 = babeViews.view_generator("self_paced_reading_rating_scale",
   });
 
 const task_three_3 = babeViews.view_generator("self_paced_reading_rating_scale", {
-    trials: 21,
+    trials: 1,
     // trials: 42,
     name: 'task_three_3',
     trial_type: 'rating_scale',
@@ -200,7 +200,7 @@ const task_three_3 = babeViews.view_generator("self_paced_reading_rating_scale",
   });
 
 const task_three_4 = babeViews.view_generator("self_paced_reading_rating_scale", {
-    trials: 21,
+    trials: 1,
     // trials: 42,
     name: 'task_three_4',
     trial_type: 'rating_scale',
@@ -269,7 +269,7 @@ const practice_task_two = multiple_dropdown ({
 
 const task_two_1 = multiple_dropdown ({
     // trials: 2,
-    trials: 9,
+    trials: 1,
     name: 'task_two_1',
     trial_type: 'dropdown_sentence_completion',
     data: _.shuffle(_.filter(part_two_trial_info.multi_dropdown,
@@ -277,7 +277,7 @@ const task_two_1 = multiple_dropdown ({
 });
 
 const task_two_2 = multiple_dropdown ({
-    trials: 9,
+    trials: 1,
     name: 'task_two_2',
     trial_type: 'dropdown_sentence_completion',
     data: _.shuffle(_.filter(part_two_trial_info.multi_dropdown,
@@ -285,7 +285,7 @@ const task_two_2 = multiple_dropdown ({
 });
 
 const task_two_3 = multiple_dropdown ({
-    trials: 9,
+    trials: 1,
     name: 'task_two_3',
     trial_type: 'dropdown_sentence_completion',
     data: _.shuffle(_.filter(part_two_trial_info.multi_dropdown,
